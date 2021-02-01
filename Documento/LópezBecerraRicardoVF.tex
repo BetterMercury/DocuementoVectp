@@ -2,6 +2,9 @@
 \usepackage[spanish]{babel}
 \usepackage{graphicx}
 \usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{cancel}
+\usepackage{hyperref}
 \graphicspath{ {Imagenes/} }
 
 \pagestyle{empty}
@@ -11,10 +14,160 @@
 \oddsidemargin= 25pt
 \textwidth=420pt
 
-\title{Práctica \#12-13: Algoritmos paralelos, P1 Y P2}
+\DeclareMathOperator{\arcsec}{arcsec}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arccsc}{arccsc}
+
+\title{Serie 4: Cálculo Vectorial}
 \author{López, Ricardo}
 \begin{document}
+	
+\newcommand{\Int}{\int\limits}
 
+\noindent \textbf{Ejercicio 6:} Por medio de la integral doble, calcular el área de la región localizada entre las curvas de ecuación $2y^2=x-2$, $x^2-4y^2=4$, $x=4$.
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+
+\vspace{5mm}
+
+\noindent Despejamos las ecuaciones de las curvas:
+
+\begin{equation}
+	2y^2 = x-2 \implies y^2 = \frac{x}{2}-1 \implies y = \sqrt{\frac{x}{2}-1}
+\end{equation}
+
+\begin{equation}
+	x^2-4y^2=4 \implies 4y^2=x^2-4 \implies y^2=\frac{x^2}{4}-1 \implies \boldsymbol{y=\sqrt{\frac{x^2}{4}-1}} 
+\end{equation}
+
+\noindent Obtenemos el valor de $x$ igualando ambas ecuaciones y resolviendo:
+
+\begin{equation}
+	\sqrt{\frac{x}{2}-1}=\sqrt{\frac{x^2}{4}-1} \implies \frac{x}{2}-\cancel{1}=\frac{x^2}{4}-\cancel{1} \implies 2x = x^2 \therefore \boldsymbol{x=2}
+\end{equation}
+
+\noindent Calculamos la doble integral para obtener el area:
+
+\begin{equation}
+	\Int_2^4 \Int_{\sqrt{\frac{x}{2}-1}}^{\sqrt{\frac{x^2}{4}-1}} \, \mathrm{d}y \,\mathrm{d}x \implies \Int_2^4 \left(\sqrt{\frac{x}{2}-1} - \sqrt{\frac{x^2}{4}-1}\right)\, \mathrm{d}x
+\end{equation}
+
+\noindent Aplicamos linearidad
+
+\begin{equation}\label{eqn:5}
+	\frac{1}{2} \Int_2^4 \sqrt{x^2-4}\, \mathrm{d}x - \frac{1}{\sqrt{2}} \Int_2^4 \sqrt{x-2}\, \mathrm{d}x
+\end{equation}
+
+\noindent Resolvemos las integrales por separado:
+
+\begin{equation}\label{eqn:6}
+	\frac{1}{2} \Int_2^4 \sqrt{x^2-4}\, \mathrm{d}x
+\end{equation}
+
+\begin{equation}\label{eqn:7}
+	\frac{1}{\sqrt{2}} \Int_2^4 \sqrt{x-2}\, \mathrm{d}x
+\end{equation}
+
+\noindent Realizando sustitución trigonométrica:
+
+\begin{align*}
+	x = 2 \sec(u) \to u = \arcsec(\frac{x}{2})\, , \ dx=2\sec(u)\tan(u) \mathrm{d}u
+\end{align*}
+
+\noindent Sustituimos en \eqref{eqn:6}:
+
+\begin{align*}
+	\frac{1}{2} \int 2\sec(u)\sqrt{4\sec^2(u)-4}\tan(u) \mathrm{d}u
+\end{align*}
+
+\noindent Simplificamos usando $4\sec^2(u)-4 = 4\tan^2(u)$:
+
+\begin{align*}
+	\frac{1}{2}\, 4\int \sec(u)\tan^2(u)\, \mathrm{d}u \implies 2\int \sec(u)\tan^2(u)\, \mathrm{d}u
+\end{align*}
+
+\noindent Reescribimos usando identidades trigonométricas: $\tan^2(u)=\sec^2(u)-1$
+
+\begin{align*}
+	= 2\int \sec(u)(\sec^2(u)-1)\, \mathrm{d}u \implies = 2\int (\sec^3(u)-\sec(u))\, \mathrm{d}u
+\end{align*}
+
+\begin{align*}
+	= 2\left(\int \sec^3(u)\, \mathrm{d}u - \int \sec(u)\, \mathrm{d}u\right)
+\end{align*}
+
+\noindent Aplicamos la formula de reducción, con $n=3$:
+
+\begin{center}
+	$\int \sec^n(u)\, \mathrm{d}u = \frac{n-2}{n-1} \int \sec^{n-2}(u)\, \mathrm{d}u + \frac{\sec^{n-2}(u)\tan(u)}{n-1}$
+\end{center}
+
+\begin{align*}
+	= 2\left(\frac{\sec(u)\tan(u)}{2} + \frac{1}{2} \int \sec(u)\, \mathrm{d}u - \int \sec(u)\, \mathrm{d}u\right)
+\end{align*}
+
+\begin{align*}
+	= 2\left(\frac{\sec(u)\tan(u)}{2} - \frac{1}{2}\int \sec(u)\, \mathrm{d}u\right) \implies 2\left(\frac{\sec(u)\tan(u)}{2} - \frac{1}{2}\ln(\tan(u)+\sec(u))\right)
+\end{align*}
+
+\begin{align*}
+	= \sec(u)\tan(u) - \ln(\tan(u)+\sec(u))
+\end{align*}
+
+\noindent Deshacemos la sustitución $u = \arcsec(\frac{x}{2})$, usando:
+
+\begin{align*}
+	\tan\left(\arcsec\left(\frac{x}{2}\right)\right)=\sqrt{\frac{x^2}{4}-1}\quad \mathrm{y} \
+	\sec\left(\arcsec\left(\frac{x}{2}\right)\right)=\frac{x}{2}
+\end{align*}
+
+\begin{align*}
+	\left.\frac{x}{2}\sqrt{\frac{x^2}{4}-1}-\ln\left(\sqrt{\frac{x^2}{4}-1}+\frac{x}{2}\right)\right|_2^4
+\end{align*}
+
+\begin{align*}
+	=\left(\frac{4}{2}\sqrt{\frac{4^2}{4}-1} - \ln(\sqrt{\frac{4^2}{4}-1}+\frac{4}{2})\right) - \left(\frac{2}{2}\cancelto{0}{\sqrt{\frac{2^2}{4}-1}} - \ln(\cancelto{0}{\sqrt{\frac{2^2}{4}-1}}+\cancelto{1}{\frac{2}{2}})\right)
+\end{align*}
+
+\begin{align*}
+	=\left(2\sqrt{3} - \ln(\sqrt{3}+2)\right) - \cancelto{0}{\ln(1)}
+\end{align*}
+
+\noindent Por lo tanto tenemos que el resultado de la ecuación \eqref{eqn:6} es:
+
+\begin{align*}
+	=2\sqrt{3} - \ln(\sqrt{3}+2)
+\end{align*}
+
+\noindent Ahora pasamos a resolver resolvemos la ecuación \eqref{eqn:7}:
+
+\begin{align*}
+	\frac{1}{\sqrt{2}} \Int_2^4 \sqrt{x-2}\, \mathrm{d}x
+\end{align*}
+
+\noindent Utilizamos la sustitución $u=x-2 \to \mathrm{d}u = \mathrm{d}x$:
+
+\begin{align*}
+	\int \sqrt{u}\, \mathrm{d}u \implies \int u^{\frac{1}{2}}\, \mathrm{d}u \implies \frac{2}{3}u^{\frac{3}{2}} + C
+\end{align*}
+
+\noindent Deshacemos la sustitución previa:
+
+\begin{align*}
+	\frac{1}{\sqrt{2}}\left[\left.\frac{2}{3}(x-2)^{\frac{3}{2}}\right|_2^4\right] \implies \frac{2}{3\sqrt{2}} \left[(4-2)^{\frac{3}{2}} - \cancelto{0}{(2-2)^{\frac{3}{2}}}\right] \implies \frac{2}{3\sqrt{2}} \left[(2)^{\frac{3}{2}}\right] = \frac{2\sqrt{8}}{3\sqrt{2}} = \frac{4\cancel{\sqrt{2}}}{3\cancel{\sqrt{2}}} = \pmb{\frac{4}{3}}
+\end{align*}
+
+\noindent Resolvemos el problema sustituyendo los valores obtenidos de \eqref{eqn:6} y \eqref{eqn:7} en la ecuación \eqref{eqn:5}:
+
+\begin{align}
+	\frac{1}{2} \Int_2^4 \sqrt{x^2-4}\, \mathrm{d}x - \frac{1}{\sqrt{2}} \Int_2^4 \sqrt{x-2}\, \mathrm{d}x = 2\sqrt{3} - \ln(\sqrt{3}+2) - \frac{4}{3}
+\end{align}
+
+\begin{align*}
+	\therefore \pmb{A = 2\sqrt{3} - \ln(\sqrt{3}+2) - \frac{4}{3} u^2}
+\end{align*}
 
 \end{document}
 
