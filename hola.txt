@@ -1,3 +1,7 @@
 Hola, este es un documento de prueba
 Sobres que onda
+<<<<<<< HEAD
 A ver como se hace esto de modificar los archivos
+=======
+Nomas ando probando el git XD
+>>>>>>> main
