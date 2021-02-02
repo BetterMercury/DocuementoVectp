@@ -5,6 +5,7 @@
 \usepackage{amssymb}
 \usepackage{cancel}
 \usepackage{hyperref}
+\usepackage{xcolor}
 \graphicspath{ {Imagenes/} }
 
 \pagestyle{empty}
@@ -34,39 +35,39 @@
 
 \noindent Despejamos las ecuaciones de las curvas:
 
-\begin{equation}
+\begin{equation}\tag{1}
 	2y^2 = x-2 \implies y^2 = \frac{x}{2}-1 \implies y = \sqrt{\frac{x}{2}-1}
 \end{equation}
 
-\begin{equation}
+\begin{equation}\tag{2}
 	x^2-4y^2=4 \implies 4y^2=x^2-4 \implies y^2=\frac{x^2}{4}-1 \implies \boldsymbol{y=\sqrt{\frac{x^2}{4}-1}} 
 \end{equation}
 
 \noindent Obtenemos el valor de $x$ igualando ambas ecuaciones y resolviendo:
 
-\begin{equation}
+\begin{equation}\tag{3}
 	\sqrt{\frac{x}{2}-1}=\sqrt{\frac{x^2}{4}-1} \implies \frac{x}{2}-\cancel{1}=\frac{x^2}{4}-\cancel{1} \implies 2x = x^2 \therefore \boldsymbol{x=2}
 \end{equation}
 
 \noindent Calculamos la doble integral para obtener el area:
 
-\begin{equation}
+\begin{equation}\tag{4}
 	\Int_2^4 \Int_{\sqrt{\frac{x}{2}-1}}^{\sqrt{\frac{x^2}{4}-1}} \, \mathrm{d}y \,\mathrm{d}x \implies \Int_2^4 \left(\sqrt{\frac{x}{2}-1} - \sqrt{\frac{x^2}{4}-1}\right)\, \mathrm{d}x
 \end{equation}
 
 \noindent Aplicamos linearidad
 
-\begin{equation}\label{eqn:5}
+\begin{equation}\label{eqn:5}\tag{5}
 	\frac{1}{2} \Int_2^4 \sqrt{x^2-4}\, \mathrm{d}x - \frac{1}{\sqrt{2}} \Int_2^4 \sqrt{x-2}\, \mathrm{d}x
 \end{equation}
 
 \noindent Resolvemos las integrales por separado:
 
-\begin{equation}\label{eqn:6}
+\begin{equation}\label{eqn:6}\tag{6}
 	\frac{1}{2} \Int_2^4 \sqrt{x^2-4}\, \mathrm{d}x
 \end{equation}
 
-\begin{equation}\label{eqn:7}
+\begin{equation}\label{eqn:7}\tag{7}
 	\frac{1}{\sqrt{2}} \Int_2^4 \sqrt{x-2}\, \mathrm{d}x
 \end{equation}
 
@@ -167,6 +168,82 @@
 
 \begin{align*}
 	\therefore \pmb{A = 2\sqrt{3} - \ln(\sqrt{3}+2) - \frac{4}{3} u^2}
+\end{align*}
+
+\noindent \textbf{Ejercicio 9:} Calcular $\iint\limits_R \frac{x+y}{1+x-y}\, \mathrm{d}A$, donde $R$ es la región limitada por las gráficas de $y=x$, $y=-x$, $y=x-4$ y $y=-x+4$.
+
+\vspace{3mm}
+
+\noindent Sugerencia: Haga la transformación $\begin{cases} u = x+y\\v=x-y\end{cases}$
+
+\noindent \textbf{Solución}.
+
+\vspace{3mm}
+
+\noindent Considerando la transformación sugerida, obtenemos los factores de escala tales que: $\mathrm{d}A = h_u\,h_v\,\mathrm{d}u\,\mathrm{d}v$
+
+\begin{align*}
+	\begin{cases}
+		u = x+y\\
+		v=x-y
+	\end{cases} \implies u+v=x+x+\cancel{y}-\cancel{y} \implies 2x = u+v \implies x = \frac{u+v}{2}
+\end{align*}
+
+\begin{align*}
+	\begin{cases}
+		u = x+y\\
+		-v = -x+y
+	\end{cases} \implies u-v=\cancel{x}-\cancel{x}+y-y \implies 2y = u-v \implies y = \frac{u-v}{2}
+\end{align*}
+
+\begin{equation}\label{eqn:9-1}\tag{1}
+	\overline{R}(u,v)=\left(\frac{u+v}{2}\right)\hat{i} + (\frac{u-v}{2})\hat{j}
+\end{equation}
+
+\noindent Sabiendo que $h_u = |\frac{\partial \overline{R}}{\partial u}|$ y $h_v = |\frac{\partial \overline{R}}{\partial v}|$, entonces:
+
+\begin{align*}
+	\frac{\partial \overline{R}}{\partial u} = \frac{1}{2}\hat{i} + \frac{1}{2}\hat{j} \qquad \qquad
+	\frac{\partial \overline{R}}{\partial v} = \frac{1}{2}\hat{i} - \frac{1}{2}\hat{j}
+\end{align*}
+
+\begin{align*}
+	\left|\frac{\partial \overline{R}}{\partial u}\right| = \left|\frac{\partial \overline{R}}{\partial v}\right| = \sqrt{\frac{1}{2}}
+\end{align*}
+
+\begin{align*}
+	\mathrm{d}A = \sqrt{\frac{1}{2}}\,\sqrt{\frac{1}{2}}\, \mathrm{d}u\,\mathrm{d}v\, \qquad \therefore \qquad \mathrm{d}A = \frac{1}{2}\,\mathrm{d}u\,\mathrm{d}v = \frac{1}{2}\,\mathrm{d}v\,\mathrm{d}u
+\end{align*}
+
+\noindent Calculamos los límites de integración a partir de las curvas dadas y la transformación sugerida:
+
+\begin{align*}
+	y = x  \implies \cancelto{{\color{blue}u}}{x-y} = 0 \implies {\color{blue}u} = 0 \\
+	y = -x \implies \cancelto{{\color{red}v}}{x+y} = 0 \implies {\color{red}v} = 0 \\
+	y = x - 4 \implies \cancelto{{\color{blue}u}}{x-y} = 4 \implies {\color{blue}u} = 4 \\
+	y = -x + 4 \implies \cancelto{{\color{red}v}}{x+y} = 4 \implies {\color{red}v} = 4 \\
+\end{align*}
+
+\noindent Realizamos la integral doble, sustituyendo la transformación donde es posible:
+
+\begin{equation*}
+	 \iint\limits_R \frac{x+y}{1+x-y}\, \mathrm{d}A = \Int_0^4\Int_0^4 \frac{u}{1+v}\, \frac{1}{2}\,\mathrm{d}v\,\mathrm{d}u = \frac{1}{2}\,\Int_0^4\Int_0^4 \frac{u}{1+v}\, \mathrm{d}v\,\mathrm{d}u 
+\end{equation*}
+
+\noindent Es importante notar que al tener límites de integración iguales en la doble integral, se pueden intercambiar los diferenciales sin mayor complicación. Resolvemos:
+
+\begin{equation}\label{eqn:9-2}\tag{2}
+	\frac{1}{2}\,\Int_0^4\Int_0^4 \frac{u}{1+v}\, \mathrm{d}v\,\mathrm{d}u
+\end{equation}
+
+\begin{align*}
+	= \frac{1}{2}\,\Int_0^4 u \Int_0^4 \frac{\mathrm{d}v}{1+v}\, \mathrm{d}u
+	= \frac{1}{2}\,\Int_0^4 u \left.\ln(1+v)\right|_0^4\, \mathrm{d}u = \frac{1}{2}\,\Int_0^4 u( \ln(5)-\cancelto{0}{\ln(1)})\, \mathrm{d}u \\
+	= \frac{1}{2}\,\Int_0^4 u \ln(5)\, \mathrm{d}u = \frac{\ln(5)}{2}\,\Int_0^4 u\, \mathrm{d}u = \frac{\ln(5)}{2}\, \left.\frac{u^2}{2}\right|_0^4 = \frac{\ln(5)}{\cancel{4}}\left(4\cancel{^2}-0^2\right)
+\end{align*}
+
+\begin{align*}
+	\pmb{\therefore \iint\limits_R \frac{x+y}{1+x-y}\, \mathrm{d}A = 4\ln(5)}
 \end{align*}
 
 \end{document}
