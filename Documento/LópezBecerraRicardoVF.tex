@@ -301,10 +301,33 @@ $. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,
 	= \int_{0}^{2\pi}\, \left.\left(\frac{9r^2}{2}-\frac{r^4}{4}\right)\right|_0^3\ \mathrm{d}\theta = \int_{0}^{2\pi}\, \left(\frac{81}{2}-\frac{81}{4}\right)\,\mathrm{d}\theta = \frac{81}{4}\, \int_{0}^{2\pi}\, \mathrm{d}\theta = \frac{81}{4}\,(2\pi)
 \end{align*}
 
-\begin{align}
+\begin{align*}
 	\pmb{\color{red} \therefore\: V = \frac{81}{2}\pi\: u^3}
-\end{align}
+\end{align*}
 
+\noindent \textbf{Ejercicio 16:} Utilizar la integración doble para calcular el área de la región interior a lac urva cuya ecuación polar es $r=6\cos\theta$.
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+
+\vspace{3mm}
+
+\noindent Notamos que la ecuación polar dada corresponde a una circunferencia con centro en el punto $(3, 0)$ y radio $r=3$. Se sabe que el cálculo de un area por medio de una integral doble esta dada por:
+
+\begin{equation*}
+	\iint_R\, \mathrm{d}A
+\end{equation*}
+
+\noindent Tomando en cuenta que en coordenadas polares $\mathrm{d}A = r\,\mathrm{d}r\,\mathrm{d}\theta$ y que los límites de integración vienen dados por $r_0 = 0$, $r = 3$, $\theta_0 = 0$ y $\theta = 2\pi$, sustituimos y resolvemos la integral doble:
+
+\begin{align*}
+	\Int_0^{2\pi} \Int_0^3\, r\,\mathrm{d}r\,\mathrm{d}\theta = \Int_0^{2\pi} \left.\left(\frac{r^2}{2}\right)\right|_0^3\mathrm{d}\theta = \Int_0^{2\pi} \left(\frac{3^2}{2}\right)\,\mathrm{d}\theta = \frac{9}{2}\Int_0^{2\pi} \,\mathrm{d}\theta = \frac{9}{2}\left(2\pi - 0\right) = \boldsymbol{9\pi}
+\end{align*}
+
+\begin{align*}
+	\pmb{\color{red} \therefore\: A = 9\pi\: u^2}
+\end{align*}
 
 \end{document}
 
