@@ -6,6 +6,7 @@
 \usepackage{cancel}
 \usepackage{hyperref}
 \usepackage{xcolor}
+\usepackage{esint}
 \graphicspath{ {Imagenes/} }
 
 \pagestyle{empty}
@@ -428,6 +429,65 @@ $. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,
 
 \begin{align*}
 	\pmb{\color{red} \therefore\: A = 4\: \: u^2}
+\end{align*}
+
+\noindent \textbf{Ejercicio 27:} Utilizar el Teorema de Green para calcular el área de la región cerrada que es limitada por la elipse de ecuación $9x^2 + 4y^2 = 36$.
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+
+\vspace{3mm}
+
+\noindent Se sabe que calcular el área por integral doble equivale a integrar la función $f(x, y) = 1$. De esta forma, el integrando puede trabajarse como:
+
+\begin{equation}\label{eqn:27-1}\tag{1}
+	f(x, y) = \frac{\partial Q}{\partial x} - \frac{\partial P}{\partial y} \implies 1 = 1 - 0
+\end{equation}
+
+\noindent De la ecuación \eqref{eqn:27-1} obtenemos que $Q_x = 1$ y $P_y = 0$. Estas funciones se calculan a partir de la integración:
+
+\begin{align*}
+	Q_x = 1 \implies \int Q_x\, \mathrm{d}x = \int \mathrm{d}x \implies Q = x + C_1 \\
+	P_y = 0 \implies \int P_y\, \mathrm{d}y = \int 0\, \mathrm{d}y \implies P = C_2 \\
+\end{align*}
+
+\noindent Como $C_1$ y $C_2$ son constantes arbitrarias, para el cálculo del área asumiremos que ambas son 0. Por lo tanto, la integral de línea a calcular es:
+
+\begin{align*}
+	\iint_R\,\mathrm{d}A = \oint_C\, P\,\mathrm{d}x + Q\,\mathrm{d}y = \oint_C\, x\, \mathrm{d}y
+\end{align*}
+
+\noindent Ahora debemos parametrizar la elipse dada, por lo que reescribimos la ecuación de forma estándar y posteriormente parametrizamos:
+
+\begin{align*}
+	9x^2 + 4y^2 = 36 \implies \frac{9x^2 + 4y^2}{36} = \frac{36}{36} \implies \frac{x^2}{4} + \frac{y^2}{9} = 1
+\end{align*}
+
+\begin{align*}
+	\implies \begin{cases}
+		x = 2\cos(t) \implies \mathrm{d}x = -2\sen(t)\\
+		y = 3\sen(t) \implies \mathrm{d}y = 3\cos(t)\\
+	\end{cases} \implies \underbrace{0 \leq t \leq 2\pi}_{\text{Se trata de una elipse cerrada.}}
+\end{align*}
+
+\noindent Procedemos a calcular la integral de línea a partir de la parametrización y los límites obtenidos:
+
+\begin{align*}
+	\oint_C\, x\,\mathrm{d}y = \Int_{0}^{2\pi}\, (2\cos t)(3\cos t)\,\mathrm{d}t = \Int_{0}^{2\pi}\, (6\cos^2 t)\,\mathrm{d}t
+\end{align*}
+
+\begin{align*}
+	= 6\Int_{0}^{2\pi}\, \frac{1+\cos(2t)}{2},\mathrm{d}t
+	\implies \frac{6}{2}\Int_{0}^{2\pi}\, 1+\cos(2t)\,\mathrm{d}t
+\end{align*}
+
+\begin{align*}
+	= 3\,\left.\left(t + \frac{\sen(2t)}{2}\right)\right|_{0}^{2\pi} = 3\left[ \left(2\pi - 0\right) + \left( \cancelto{0}{\frac{\sen(4\pi)}{2}} - \cancelto{0}{\frac{\sen(0)}{2}} \right) \right] = 3(2\pi)
+\end{align*}
+
+\begin{align*}
+	\pmb{\color{red} \therefore\: A = 6\pi\: \: u^2}
 \end{align*}
 
 \end{document}
