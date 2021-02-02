@@ -394,6 +394,42 @@ $. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,
 	\pmb{\color{red} \therefore\: A = 18\,\frac{9\pi}{4}\: \: u^2}
 \end{align*}
 
+\noindent \textbf{Ejercicio 18:} Calcular el área de la región limitada por la lemniscata cuya ecuación en coordenadas polares es $r^2=4\cos(2\theta)$.
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+
+\vspace{3mm}
+
+\noindent Para calcular el área de la lemniscata, emplearemos la siguiente integral doble tomando en cuenta que la ecuación brindada está en coordenadas polares:
+
+\begin{equation}\label{eqn:18-1}\tag{1}
+	\iint\limits_R\, \mathrm{d}A = \iint\limits_R\, r\,\mathrm{d}r\,\mathrm{d}\theta
+\end{equation}
+
+\noindent Una vez definida la doble integral que ocuparemos, necesitamos obtener los límites de integración. Como podemos observar en la ecuación \eqref{eqn:18-1}, los primeros límites corresponden a los impuestos en $r$. En este caso el valor del radio de una lemniscata va de $0$ al de la ecuación de la misma, por lo que debemos despejar a $r$:
+
+\begin{align*}
+	r^2 = 4\cos(2\theta) \implies r = 2\sqrt{\cos(2\theta)}
+\end{align*}
+
+\noindent Ahora, para el rango de valores de $\theta$ nos basaremos en el calculo de su primer cuadrante y multiplicaremos el area obtenida por 4. En cualquier lemniscata, el rango de $\theta$ en el primer cuadrante es $\,0<\theta<\frac{\pi}{4}$. Teniendo los dos límites de la integral doble, procedemos a resolverla:
+
+\begin{align*}
+	\Int_{0}^{\frac{\pi}{4}} \Int_{0}^{2\sqrt{\cos(2\theta)}}\, r\,\mathrm{d}r\,\mathrm{d}\theta = \Int_{0}^{\frac{\pi}{4}} \left.\frac{r^2}{2}\right|_{0}^{2\sqrt{\cos(2\theta)}}\,\mathrm{d}\theta = \Int_{0}^{\frac{\pi}{4}}\,\frac{(2\sqrt{\cos(2\theta)})^2}{2}\,\mathrm{d}\theta = \Int_{0}^{\frac{\pi}{4}}\, \frac{4\cos(2\theta)}{2}\,\mathrm{d}\theta
+\end{align*}
+
+\begin{align*}
+	\implies 2\,\Int_{0}^{\frac{\pi}{4}}\, \cos(2\theta)\,\mathrm{d}\theta = \cancel{2}\,\left.\frac{\sen(2\theta)}{\cancel{2}}\right|_{0}^{\frac{\pi}{4}} = \left(\sen(\frac{\pi}{2}) - \cancelto{0}{\sen(0)}\right) = 1
+\end{align*}
+
+\noindent Tenemos que el valor del área del primer cuadrante de la lemniscata es de 1, por lo que dicho valor es multiplicado por los 4 cuadrantes que conforman esta figura y obtenemos:
+
+\begin{align*}
+	\pmb{\color{red} \therefore\: A = 4\: \: u^2}
+\end{align*}
+
 \end{document}
 
  
