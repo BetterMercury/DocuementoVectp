@@ -252,6 +252,58 @@
 
 \noindent \textbf{Solución.}
 
+\vspace{3mm}
+
+\noindent Para calcular el volumen de un sólido dada una región, empleamos una integral triple de volumen en $xyz$:
+
+\begin{equation}\label{eqn:13-1}\tag{1}
+	V = \iiint_V dV \implies V = \int_{a}^{b}\int_{g_1(x)}^{g_2(x)}\int_{h_1(x,y)}^{h_2(x,y)}\, \mathrm{d}z\,\mathrm{d}y\,\mathrm{d}x
+\end{equation}
+
+\noindent Al aplicar la primera integral, obtenemos justamente la integral doble que se utiliza para calcular \textbf{el volumen entre dos superficies}:
+
+\begin{equation}\label{eqn:13-2}\tag{2}
+	V = \int_{a}^{b}\int_{g_1(x)}^{g_2(x)}\, h_2(x,y)-h_1(x,y)\, \mathrm{d}A
+\end{equation}
+
+\noindent Notamos que tenemos es más sencillo trabajar con una función $h(x,z)$ debido a que la superficie $S_2$ ya nos da uno de los límites de integración en $y$, así podemos despejar $y$ de la primera superficie para obtener el segundo límite:
+
+\begin{align*}
+	S_1:x^2+z^2=4-y \implies x^2+z^2+y=4 \implies \boldsymbol{y=4-x^2-z^2}
+\end{align*}
+
+\noindent De esta forma podemos definir lo siguiente:
+
+\begin{equation*}
+	h_1(x,z) = -5 \qquad
+	h_2(x,z) = 4-x^2-z^2
+\end{equation*}
+
+\begin{align*}
+	\implies h_2(x,z) - h_1(x,z) = 4-x^2-z^2 - (-5) = 4-x^2-z^2 + 5\\
+	\therefore \quad \boldsymbol{h_2(x,z) - h_1(x,z) = 9-x^2-z^2}
+\end{align*}
+
+\noindent Sustituimos la función obtenida en la ecuación \eqref{eqn:13-2}:
+
+\begin{align*}
+	V = \int_{a}^{b}\int_{g_1(x)}^{g_2(x)}\, 9-x^2-z^2\, \mathrm{d}A
+\end{align*}
+
+\noindent A partir de la ecuación anterior, podemos darnos cuenta de que nos conviene realizar una transformación a coordenadas polares, tal que $x^2+z^2 = r^2$ y $\mathrm{d}A = r\, \mathrm{d}r\,\mathrm{d}\theta
+$. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,\, b=2\pi,\, g_1(x)=0,\, g_2(x)=3$. Sustituimos en la integral y nos queda:
+
+\begin{align*}
+	V = \int_{0}^{2\pi}\int_{0}^{3}\, (9-\underbrace{(x^2+z^2)}_{\text{$r^2$}})\, r\, \mathrm{d}r\,\mathrm{d}\theta = \int_{0}^{2\pi}\int_{0}^{3}\, (9-r^2)\, r\, \mathrm{d}r\,\mathrm{d}\theta = \int_{0}^{2\pi}\int_{0}^{3}\, (9r-r^3)\, \mathrm{d}r\,\mathrm{d}\theta
+\end{align*}
+
+\begin{align*}
+	= \int_{0}^{2\pi}\, \left.\left(\frac{9r^2}{2}-\frac{r^4}{4}\right)\right|_0^3\ \mathrm{d}\theta = \int_{0}^{2\pi}\, \left(\frac{81}{2}-\frac{81}{4}\right)\,\mathrm{d}\theta = \frac{81}{4}\, \int_{0}^{2\pi}\, \mathrm{d}\theta = \frac{81}{4}\,(2\pi)
+\end{align*}
+
+\begin{align}
+	\pmb{\color{red} \therefore\: V = \frac{81}{2}\pi\: u^3}
+\end{align}
 
 
 \end{document}
