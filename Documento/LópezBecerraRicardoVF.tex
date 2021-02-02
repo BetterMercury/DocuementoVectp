@@ -329,6 +329,71 @@ $. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,
 	\pmb{\color{red} \therefore\: A = 9\pi\: u^2}
 \end{align*}
 
+\noindent \textbf{Ejercicio 17:} Calcular el área de la región exterior a la circunferencia cuya ecuación polar es $r=3$ e interior a la cardioide de ecuación polar $r=3(1+\cos\,\theta)$.
+
+\vspace{5mm}
+
+\noindent \textbf{Solución}.
+
+\vspace{3mm}
+
+\noindent Para calcular el área de la región emplearemos una doble integral en coordenadas polares, tal que:
+
+\begin{equation}\label{eqn:17-1}\tag{1}
+	\iint\limits_R\, \mathrm{d}A = \iint\limits_R\, r\,\mathrm{d}r\,\mathrm{d}\theta
+\end{equation}
+
+\noindent Para establecer los límites de integración utilizamos las dos curvas dadas, las cuales dependen de $r$ de tal forma que tenemos: $\boldsymbol{3<r<3(1+\cos\,\theta)}$. Ahora bien, para obtener los límites respecto a $\theta$ igualamos las dos ecuaciones para obtener los puntos de intersección:
+
+\begin{align*}
+	\cancel{3} = \cancel{3}(1 + \cos\,\theta) \implies \cancel{1} = \cancel{1} + \cos\,\theta \implies \cos\,\theta = 0 \implies \begin{cases}
+		\theta = \frac{\pi}{2} \\
+		\theta = \frac{3\pi}{2}
+	\end{cases}
+\end{align*}
+
+\noindent Notamos que tenemos un ángulo que podría darnos problemas a la hora de realizar los cálculos, por lo que nos enfocaremos en el primer cuadrante ($0<\theta<\frac{\pi}{2}$) y aprovecharemos la símetria para multiplicar el area obtenida por 2. Ahora sustituimos los límites de integración obtenidos en la ecuación \eqref{eqn:17-1} y resolvemos:
+
+\begin{align*}
+	2\Int_{0}^{\frac{\pi}{2}} \Int_{3}^{3(1+\cos\,\theta)}\, r\,\mathrm{d}r\,\mathrm{d}\theta = 2\Int_{0}^{\frac{\pi}{2}}\, \left.\frac{r^2}{2}\right|_{3}^{3(1+\cos\,\theta)} \mathrm{d}\theta = 2\Int_{0}^{\frac{\pi}{2}}\, \left(\frac{9(1+\cos\,\theta)^2}{2}  - \frac{9}{2}\right)  \mathrm{d}\theta
+\end{align*}
+
+\begin{align*}
+	\implies \cancel{2}\left[ \Int_{0}^{\frac{\pi}{2}}\, \frac{9(1+2\cos\,\theta+\cos^2\,\theta)}{\cancel{2}} \mathrm{d}\theta  - \frac{9}{\cancel{2}}\, \Int_{0}^{\frac{\pi}{2}}\, \mathrm{d}\theta \right]
+\end{align*}
+
+\begin{align*}
+	\implies 9\Int_{0}^{\frac{\pi}{2}}\, (1+2\cos\,\theta+\cos^2\,\theta)\, \mathrm{d}\theta  - 9 (\frac{\pi}{2})
+\end{align*}
+
+\begin{align*}
+	\implies 9\Int_{0}^{\frac{\pi}{2}}\, (1+2\cos\,\theta+\cos^2\,\theta)\, \mathrm{d}\theta  - \frac{9\pi}{2}
+\end{align*}
+
+\begin{align*}
+	\implies \underbrace{9\Int_{0}^{\frac{\pi}{2}}\, \left(1+2\cos\,\theta+\frac{1+\cos(2\theta)}{2}\,\right)\, \mathrm{d}\theta - \frac{9\pi}{2}}_{\text{multiplicamos toda la expresión por $\frac{2}{2}$}}
+\end{align*}
+
+\begin{align*}
+	\implies \frac{9}{2}\Int_{0}^{\frac{\pi}{2}}\, \left(2+4\cos\,\theta+1+\cos(2\theta)\,\right)\, \mathrm{d}\theta - \frac{18\pi}{4} = \frac{9}{2}\Int_{0}^{\frac{\pi}{2}}\, \left(3+4\cos\,\theta+\cos(2\theta)\,\right)\, \mathrm{d}\theta - \frac{18\pi}{4}
+\end{align*}
+
+\begin{align*}
+	\implies \frac{9}{2}\,\left.\left(3\theta+4\sen(\theta)+\cancelto{0}{\frac{\sen(2\,\theta)}{2}}\right)\right|_{0}^{\frac{\pi}{2}} - \frac{18\pi}{4}
+\end{align*}
+
+\begin{align*}
+	\implies \frac{9}{2}\left[3\left(\frac{\pi}{2}\right) + 4\underbrace{\left(\sen(\frac{\pi}{2})-\sen(0)\right)}_{1} \right] - \frac{18\pi}{4}
+\end{align*}
+
+\begin{align*}
+	\implies \frac{27\pi + 32 - 18}{4} = \frac{9\pi}{4} + 18
+\end{align*}
+
+\begin{align*}
+	\pmb{\color{red} \therefore\: A = 18\,\frac{9\pi}{4}\: \: u^2}
+\end{align*}
+
 \end{document}
 
  
