@@ -7,6 +7,10 @@
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{esint}
+\usepackage{pgfplots}
+
+
+
 \graphicspath{ {Imagenes/} }
 
 \pagestyle{empty}
@@ -15,10 +19,12 @@
 \headsep=0pt
 \oddsidemargin= 25pt
 \textwidth=420pt
+\setlength{\parindent}{0pt}
 
 \DeclareMathOperator{\arcsec}{arcsec}
 \DeclareMathOperator{\arccot}{arccot}
 \DeclareMathOperator{\arccsc}{arccsc}
+\DeclareMathOperator{\di}{d\!}
 
 \date{5 de febrero de 2021}
 \title{Serie 4: Cálculo Vectorial}
@@ -29,6 +35,24 @@
 \maketitle
 	
 \newcommand{\Int}{\int\limits}
+
+\newcommand*\eval[3]{\left.#1\right\rvert_{#2}^{#3}}
+
+\noindent \textbf{Ejercicio 1:} Calcular $\int_0^1 \int_0^2 xy \,dy\,dx$ .
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+ 
+\vspace{5mm}
+
+\begin{align*}
+\int_0^1 \int_0^2 xy \,dy\,dx = \int_0^1 \eval{\frac{xy^2}{2}}{2}{0} \di x 
+= \int_0^1 2x \di x 
+= \color {red} 1
+\end{align*}
+
+
 
 \noindent \textbf{Ejercicio 6:} Por medio de la integral doble, calcular el área de la región localizada entre las curvas de ecuación $2y^2=x-2$, $x^2-4y^2=4$, $x=4$.
 
@@ -60,7 +84,7 @@
 	\Int_2^4 \Int_{\sqrt{\frac{x}{2}-1}}^{\sqrt{\frac{x^2}{4}-1}} \, \mathrm{d}y \,\mathrm{d}x \implies \Int_2^4 \left(\sqrt{\frac{x}{2}-1} - \sqrt{\frac{x^2}{4}-1}\right)\, \mathrm{d}x
 \end{equation}
 
-\noindent Aplicamos linearidad
+\noindent Aplicamos linealidad
 
 \begin{equation}\label{eqn:5}\tag{5}
 	\frac{1}{2} \Int_2^4 \sqrt{x^2-4}\, \mathrm{d}x - \frac{1}{\sqrt{2}} \Int_2^4 \sqrt{x-2}\, \mathrm{d}x
@@ -175,6 +199,53 @@
 	 \pmb{\color{red} \therefore\: A = 2\sqrt{3} - \ln(\sqrt{3}+2) - \frac{4}{3}\quad u^2}
 \end{align*}
 
+\noindent \textbf{Ejercicio 8:} Por medio de la integral doble, calcular el área
+de la región localizada entre las curvas de ecuación $x^2 -14x -5y +59 = 0$ , 
+$x^2-14x+5y-11=0$.
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+ 
+\vspace{5mm}
+
+Empezamos obteniendo los puntos de intersección de las cruvas
+
+\begin{align*}
+	x^2 -14x -5y +59 = x^2-14x+5y-11 \implies y = 7
+\end{align*}
+
+\begin{align*}
+	&x^2 -14x -5y +59 = 0 \\
+	&x^2 -14x -5(7) +59 = 0 \\
+	&x = \frac{14 \pm \sqrt{196^2-96 }}{2} \\
+	&x_1 = 2 \\
+	&x_2 = 12 \\
+\end{align*}
+
+Despejando y de ambas ecuaciones
+
+\begin{align*}
+	c_1 &= \frac{(x-y)^2}{5} + 2 \\
+	c_2 &= -\frac{(x-7)^2}{5}+12
+\end{align*}
+
+Para calcular el área se resuelve la integral 
+
+\begin{align*}
+	A = \int_{x_1}^{x_2} \int_{c_1}^{c_2} \di A = \int_{2}^{12} \int_{\frac{(x-y)^2}{5} + 2}^{-\frac{(x-7)^2}{5}+12} \di y \di x
+\end{align*}
+
+Se eligieron estos límites de integración porque en este caso se debe integrar desde el menor
+valor de x al mayor y desde la curva que limita al área por debajo hasta la que la limita
+por arriba
+\begin{align*}
+A &= \int_{2}^{12} \int_{\frac{(x-y)^2}{5} + 2}^{-\frac{(x-7)^2}{5}+12} \di y \di x 
+= \int_2^12 \eval{x}{\frac{(x-y)^2}{5} + 2}{-\frac{(x-7)^2}{5}+12} \di x \\
+&= \int_2^12 -\frac{2}{5}(x-7)^2+10 \di x = \eval{-\frac{2}{15}(x-7)^3+10x}{2}{12}
+=\color{red}\frac{200}{3} u^3 
+\end{align*}
+
 \noindent \textbf{Ejercicio 9:} Calcular $\iint\limits_R \frac{x+y}{1+x-y}\, \mathrm{d}A$, donde $R$ es la región limitada por las gráficas de $y=x$, $y=-x$, $y=x-4$ y $y=-x+4$.
 
 \vspace{3mm}
@@ -250,6 +321,128 @@
 \begin{align*}
 	\pmb{\color{red} \therefore \iint\limits_R \frac{x+y}{1+x-y}\, \mathrm{d}A\, = \,4\ln(5)}
 \end{align*}
+
+\noindent \textbf{Ejercicio 10:} Por medio de la integral doble, calcular el área de la 
+región del primer cuadrante, limitada por las curvas $xy = 1$, $xy = 4$, $y = 2x$, $x = 2y$ .
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+
+\vspace{3mm}
+Primero se reescriben las ecuaciones de las curvas
+
+\begin{align*}
+	y = \frac{1}{x} && y = \frac{4}{x} && y = 2x && y = \frac{x}{2}
+\end{align*}
+
+Luego, como apoyo, se grafican las curvas para reconocer los límites de integración
+\begin{figure}
+\centering
+\begin{tikzpicture}
+	\begin{axis}[
+		axis lines = left,
+		xlabel = $x$,
+		ylabel = {$y$},
+		xmin=0, xmax=4,
+		ymin=0, ymax=4,
+	]
+	
+	\addplot [
+		domain=-0:4, 
+		samples=100, 
+	]
+	{2*x};
+
+	\addplot [
+		domain=0:4, 
+		samples=100, 
+		]
+		{x/2};
+
+	\addplot [
+		domain=0:4, 
+		samples=100, 
+		]
+		{4/x};
+	
+	\addplot [
+		domain=0:4, 
+		samples=100, 
+		]
+		{1/x};
+	\end{axis}
+	\end{tikzpicture}
+	\caption{Gráfica de las curvas.}
+	\label{ej10}
+\end{figure}
+
+De la figura \ref{ej10} se deduce que se necesitan encontrar cuatro puntos de intersección,
+por lo que se optienen el valor de x los siguentes sistemas de ecuaciones:
+\begin{align*}
+	&\begin{cases}
+		y &= 2x \\
+		y &= \frac{1}{x}
+	\end{cases}	
+	\implies x = \frac{\sqrt{2}}{2}	\\
+	&\begin{cases}
+		y &= 2x \\
+		y &= \frac{4}{x}
+	\end{cases}	
+	\implies x = \sqrt{2} \\
+	&\begin{cases}
+		y &= \frac{x}{2} \\
+		y &= \frac{1}{x}
+	\end{cases}	
+	\implies x = \sqrt{2} \\
+	&\begin{cases}
+		y &= \frac{x}{2} \\
+		y &= \frac{4}{x}
+	\end{cases}	
+	\implies x = 2\sqrt{2} \\
+\end{align*}
+
+Con los puntos obtenidos, se llega a que el área debe ser
+
+\begin{align*}
+	A &= \int_{\frac{\sqrt{2}}{2}}^{\sqrt{2}}\int_{\frac{1}{x}}^{2x} \di y \di x
+	+ \int_{\sqrt{2}}^{2\sqrt{2}}\int_{\frac{x}{2}}^{\frac{4}{x}} \di y \di x \\
+	&=\left(2-\frac{1}{2}-\ln{\sqrt{2}}+ \ln{\frac{\sqrt{2}}{2}}\right) 
+	+\left(4\ln{2\sqrt{2}}-4\ln{\sqrt{2}}-\frac{3}{2}\right) \\
+	&=\color{red}\ln(8) u^2
+\end{align*}
+
+\noindent \textbf{Ejercicio 12} Determinar el volumen de la región limitada por
+ las superficies: $az = y^2$, $x^2+y^2 = r2$, $z=0$ donde a y r son constantes.
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+
+\vspace{3mm}
+
+Como una de las curvas es una circunferencia en el plano xy y se quiere calcular un
+volumen en que está involucrada, se utilizan coordenadas cilindricas para faciliar
+los cálculos, por lo que 
+
+\begin{align*}
+	V = \int\int_{R} \frac{y^2}{a} \di A
+\end{align*}
+donde
+\begin{align*}
+	\di A = h_{r}h_{\theta} \di r \di \theta && h_{r}=1 && h_{\theta} = r
+\end{align*} 
+Como se debe considerar el volumen del cilindro completo se debe integrar desde
+$0$ hasta $r$ con respecto a $r$ y desde $0$ hasta $2\pi$ con 
+respecto a $\theta$, por lo que el volumen se define
+como
+\begin{align*}
+	V = \int_{0}^{2\pi}\int_{0}^{r} \frac{r^2\sen^2\theta}{a}r \di r \di \theta
+	= \int_0^{2\pi} \frac{r^4\sen^2\theta}{4a} \di \theta =\color{red} \frac{r^4\pi}{4a} u^3	
+\end{align*} 
+
+
+
 
 \noindent \textbf{Ejercicio 13:} Calcular el volumen de la región que es limitada por las superficies $S_1$ y $S_2$ representadas por: $S_1:x^2+z^2=4-y$, $S_2:y+5=0$.
 
@@ -434,6 +627,9 @@ $. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,
 \begin{align*}
 	\pmb{\color{red} \therefore\: A = 4\: \: u^2}
 \end{align*}
+
+
+
 
 \noindent \textbf{Ejercicio 27:} Utilizar el Teorema de Green para calcular el área de la región cerrada que es limitada por la elipse de ecuación $9x^2 + 4y^2 = 36$.
 
