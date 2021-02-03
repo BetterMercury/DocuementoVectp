@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.26)  2 FEB 2021 23:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.1.26)  3 FEB 2021 14:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -124,104 +124,6 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )) (d:/Programas/texlive/2020/texmf-dist/tex/latex/cancel/cancel.sty
 Package: cancel 2013/04/12 v2.2 Cancel math terms
-) (d:/Programas/texlive/2020/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
- (d:/Programas/texlive/2020/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (d:/Programas/texlive/2020/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
-) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (d:/Programas/texlive/2020/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-) (d:/Programas/texlive/2020/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
-) (d:/Programas/texlive/2020/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (d:/Programas/texlive/2020/texmf-dist/tex/latex/hycolor/hycolor.sty
-Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (d:/Programas/texlive/2020/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
-Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
-) (d:/Programas/texlive/2020/texmf-dist/tex/latex/auxhook/auxhook.sty
-Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (d:/Programas/texlive/2020/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-)
-\@linkdim=\dimen151
-\Hy@linkcounter=\count266
-\Hy@pagecounter=\count267
- (d:/Programas/texlive/2020/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-) (d:/Programas/texlive/2020/texmf-dist/tex/generic/intcalc/intcalc.sty
-Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (d:/Programas/texlive/2020/texmf-dist/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count268
-Package hyperref Info: Hyper figures OFF on input line 4464.
-Package hyperref Info: Link nesting OFF on input line 4469.
-Package hyperref Info: Hyper index ON on input line 4472.
-Package hyperref Info: Plain pages OFF on input line 4479.
-Package hyperref Info: Backreferencing OFF on input line 4484.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count269
- (d:/Programas/texlive/2020/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip17
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen152
- (d:/Programas/texlive/2020/texmf-dist/tex/generic/bitset/bitset.sty
-Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (d:/Programas/texlive/2020/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
-))
-\Fld@menulength=\count270
-\Field@Width=\dimen153
-\Fld@charsize=\dimen154
-Package hyperref Info: Hyper figures OFF on input line 6347.
-Package hyperref Info: Link nesting OFF on input line 6352.
-Package hyperref Info: Hyper index ON on input line 6355.
-Package hyperref Info: backreferencing OFF on input line 6362.
-Package hyperref Info: Link coloring OFF on input line 6367.
-Package hyperref Info: Link coloring with OCG OFF on input line 6372.
-Package hyperref Info: PDF/A mode OFF on input line 6377.
-LaTeX Info: Redefining \ref on input line 6417.
-LaTeX Info: Redefining \pageref on input line 6421.
- (d:/Programas/texlive/2020/texmf-dist/tex/latex/base/atbegshi-ltx.sty
-Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
-with kernel methods
-)
-\Hy@abspage=\count271
-\c@Item=\count272
-\c@Hfootnote=\count273
-)
-Package hyperref Info: Driver (autodetected): hpdftex.
- (d:/Programas/texlive/2020/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
- (d:/Programas/texlive/2020/texmf-dist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
-with kernel methods
-)
-\Fld@listcount=\count274
-\c@bookmark@seq@number=\count275
- (d:/Programas/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
-Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
- (d:/Programas/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
-)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
-)
-\Hy@SectionHShift=\skip52
 ) (d:/Programas/texlive/2020/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
  (d:/Programas/texlive/2020/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -244,8 +146,8 @@ Package: esint
 Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
  (d:/Programas/texlive/2020/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (d:/Programas/texlive/2020/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (d:/Programas/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks22
-\pgfutil@tempdima=\dimen155
-\pgfutil@tempdimb=\dimen156
+\pgfutil@tempdima=\dimen151
+\pgfutil@tempdimb=\dimen152
  (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box49
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -260,26 +162,26 @@ Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
  (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
 \pgfkeys@tmptoks=\toks25
 ))
-\pgf@x=\dimen157
-\pgf@y=\dimen158
-\pgf@xa=\dimen159
-\pgf@ya=\dimen160
-\pgf@xb=\dimen161
-\pgf@yb=\dimen162
-\pgf@xc=\dimen163
-\pgf@yc=\dimen164
-\pgf@xd=\dimen165
-\pgf@yd=\dimen166
+\pgf@x=\dimen153
+\pgf@y=\dimen154
+\pgf@xa=\dimen155
+\pgf@ya=\dimen156
+\pgf@xb=\dimen157
+\pgf@yb=\dimen158
+\pgf@xc=\dimen159
+\pgf@yc=\dimen160
+\pgf@xd=\dimen161
+\pgf@yd=\dimen162
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count276
-\c@pgf@countb=\count277
-\c@pgf@countc=\count278
-\c@pgf@countd=\count279
+\c@pgf@counta=\count266
+\c@pgf@countb=\count267
+\c@pgf@countc=\count268
+\c@pgf@countd=\count269
 \t@pgf@toka=\toks26
 \t@pgf@tokb=\toks27
 \t@pgf@tokc=\toks28
-\pgf@sys@id@count=\count280
+\pgf@sys@id@count=\count270
  (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
 )
@@ -290,59 +192,59 @@ File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
 File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
 ))) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfsyssoftpath@smallbuffer@items=\count281
-\pgfsyssoftpath@bigbuffer@items=\count282
+\pgfsyssoftpath@smallbuffer@items=\count271
+\pgfsyssoftpath@bigbuffer@items=\count272
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 )) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
  (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen167
-\pgfmath@count=\count283
+\pgfmath@dimen=\dimen163
+\pgfmath@count=\count273
 \pgfmath@box=\box50
 \pgfmath@toks=\toks29
 \pgfmath@stack@operand=\toks30
 \pgfmath@stack@operation=\toks31
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count284
+\c@pgfmathroundto@lastzeros=\count274
 )) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@picminx=\dimen168
-\pgf@picmaxx=\dimen169
-\pgf@picminy=\dimen170
-\pgf@picmaxy=\dimen171
-\pgf@pathminx=\dimen172
-\pgf@pathmaxx=\dimen173
-\pgf@pathminy=\dimen174
-\pgf@pathmaxy=\dimen175
-\pgf@xx=\dimen176
-\pgf@xy=\dimen177
-\pgf@yx=\dimen178
-\pgf@yy=\dimen179
-\pgf@zx=\dimen180
-\pgf@zy=\dimen181
+\pgf@picminx=\dimen164
+\pgf@picmaxx=\dimen165
+\pgf@picminy=\dimen166
+\pgf@picmaxy=\dimen167
+\pgf@pathminx=\dimen168
+\pgf@pathmaxx=\dimen169
+\pgf@pathminy=\dimen170
+\pgf@pathmaxy=\dimen171
+\pgf@xx=\dimen172
+\pgf@xy=\dimen173
+\pgf@yx=\dimen174
+\pgf@yy=\dimen175
+\pgf@zx=\dimen176
+\pgf@zy=\dimen177
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@path@lastx=\dimen182
-\pgf@path@lasty=\dimen183
+\pgf@path@lastx=\dimen178
+\pgf@path@lasty=\dimen179
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@shorten@end@additional=\dimen184
-\pgf@shorten@start@additional=\dimen185
+\pgf@shorten@end@additional=\dimen180
+\pgf@shorten@start@additional=\dimen181
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 \pgfpic=\box51
 \pgf@hbox=\box52
 \pgf@layerbox@main=\box53
-\pgf@picture@serial@count=\count285
+\pgf@picture@serial@count=\count275
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgflinewidth=\dimen186
+\pgflinewidth=\dimen182
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@pt@x=\dimen187
-\pgf@pt@y=\dimen188
-\pgf@pt@temp=\dimen189
+\pgf@pt@x=\dimen183
+\pgf@pt@y=\dimen184
+\pgf@pt@temp=\dimen185
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -351,12 +253,12 @@ File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfarrowsep=\dimen190
+\pgfarrowsep=\dimen186
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@max=\dimen191
-\pgf@sys@shading@range@num=\count286
-\pgf@shadingcount=\count287
+\pgf@max=\dimen187
+\pgf@sys@shading@range@num=\count276
+\pgf@shadingcount=\count277
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
@@ -377,127 +279,125 @@ File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ) (d:/Programas/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@nodesepstart=\dimen192
-\pgf@nodesepend=\dimen193
+\pgf@nodesepstart=\dimen188
+\pgf@nodesepend=\dimen189
 ) (d:/Programas/texlive/2020/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
 )) (d:/Programas/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (d:/Programas/texlive/2020/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (d:/Programas/texlive/2020/texmf-dist/tex/latex/pgf/math/pgfmath.sty (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
  (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen194
-\pgffor@skip=\dimen195
+\pgffor@iter=\dimen190
+\pgffor@skip=\dimen191
 \pgffor@stack=\toks32
 \pgffor@toks=\toks33
 )) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
  (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgf@plot@mark@count=\count288
-\pgfplotmarksize=\dimen196
+\pgf@plot@mark@count=\count278
+\pgfplotmarksize=\dimen192
 )
-\tikz@lastx=\dimen197
-\tikz@lasty=\dimen198
-\tikz@lastxsaved=\dimen199
-\tikz@lastysaved=\dimen256
-\tikz@lastmovetox=\dimen257
-\tikz@lastmovetoy=\dimen258
-\tikzleveldistance=\dimen259
-\tikzsiblingdistance=\dimen260
+\tikz@lastx=\dimen193
+\tikz@lasty=\dimen194
+\tikz@lastxsaved=\dimen195
+\tikz@lastysaved=\dimen196
+\tikz@lastmovetox=\dimen197
+\tikz@lastmovetoy=\dimen198
+\tikzleveldistance=\dimen199
+\tikzsiblingdistance=\dimen256
 \tikz@figbox=\box56
 \tikz@figbox@bg=\box57
 \tikz@tempbox=\box58
 \tikz@tempbox@bg=\box59
-\tikztreelevel=\count289
-\tikznumberofchildren=\count290
-\tikznumberofcurrentchild=\count291
-\tikz@fig@count=\count292
+\tikztreelevel=\count279
+\tikznumberofchildren=\count280
+\tikznumberofcurrentchild=\count281
+\tikz@fig@count=\count282
  (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-\pgfmatrixcurrentrow=\count293
-\pgfmatrixcurrentcolumn=\count294
-\pgf@matrix@numberofcolumns=\count295
+\pgfmatrixcurrentrow=\count283
+\pgfmatrixcurrentcolumn=\count284
+\pgf@matrix@numberofcolumns=\count285
 )
-\tikz@expandcount=\count296
+\tikz@expandcount=\count286
  (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 \t@pgfplots@toka=\toks34
 \t@pgfplots@tokb=\toks35
 \t@pgfplots@tokc=\toks36
-\pgfplots@tmpa=\dimen261
-\c@pgfplots@coordindex=\count297
-\c@pgfplots@scanlineindex=\count298
+\pgfplots@tmpa=\dimen257
+\c@pgfplots@coordindex=\count287
+\c@pgfplots@scanlineindex=\count288
  (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code.tex)) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldpgfsupp_loader.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex)) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructure.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsliststructureext.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count299
+\c@pgfplotsarray@tmp=\count289
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatrix.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count300
+\c@pgfplotstable@counta=\count290
 \t@pgfplotstable@a=\toks37
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.code.tex)) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count301
- (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def)))
-(d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen262
-\pgfdecoratedremainingdistance=\dimen263
-\pgfdecoratedinputsegmentcompleteddistance=\dimen264
-\pgfdecoratedinputsegmentremainingdistance=\dimen265
-\pgf@decorate@distancetomove=\dimen266
-\pgf@decorate@repeatstate=\count302
-\pgfdecorationsegmentamplitude=\dimen267
-\pgfdecorationsegmentlength=\dimen268
+\c@pgfplotslibrarysurf@no=\count291
+ (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex)) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.tex))) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen258
+\pgfdecoratedremainingdistance=\dimen259
+\pgfdecoratedinputsegmentcompleteddistance=\dimen260
+\pgfdecoratedinputsegmentremainingdistance=\dimen261
+\pgf@decorate@distancetomove=\dimen262
+\pgf@decorate@repeatstate=\count292
+\pgfdecorationsegmentamplitude=\dimen263
+\pgfdecorationsegmentlength=\dimen264
 )
 \tikz@lib@dec@box=\box60
-) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count303
-\pgfplots@xmin@reg=\dimen269
-\pgfplots@xmax@reg=\dimen270
-\pgfplots@ymin@reg=\dimen271
-\pgfplots@ymax@reg=\dimen272
-\pgfplots@zmin@reg=\dimen273
-\pgfplots@zmax@reg=\dimen274
+) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathmorphing.code.tex (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathmorphing.code.tex)) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.pathreplacing.code.tex
+(d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count293
+\pgfplots@xmin@reg=\dimen265
+\pgfplots@xmax@reg=\dimen266
+\pgfplots@ymin@reg=\dimen267
+\pgfplots@ymax@reg=\dimen268
+\pgfplots@zmin@reg=\dimen269
+\pgfplots@zmax@reg=\dimen270
 ) (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
  (d:/Programas/texlive/2020/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))) (d:/Programas/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-01-09 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count304
+\l__kernel_color_stack_int=\count294
 \l__pdf_internal_box=\box61
 ) (d:/DocuementoVectp/Documento/LópezBecerraRicardoVF.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
 )
 \openout1 = `LópezBecerraRicardoVF.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
-LaTeX Font Info:    ... okay on input line 33.
-LaTeX Info: Redefining \. on input line 33.
-LaTeX Info: Redefining \% on input line 33.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Info: Redefining \. on input line 27.
+LaTeX Info: Redefining \% on input line 27.
  (d:/Programas/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count305
-\scratchdimen=\dimen275
+\scratchcounter=\count295
+\scratchdimen=\dimen271
 \scratchbox=\box62
-\nofMPsegments=\count306
-\nofMParguments=\count307
+\nofMPsegments=\count296
+\nofMParguments=\count297
 \everyMPshowfont=\toks38
-\MPscratchCnt=\count308
-\MPscratchDim=\dimen276
-\MPnumerator=\count309
-\makeMPintoPDFobject=\count310
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen272
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
 \everyMPtoPDFconversion=\toks39
 ) (d:/Programas/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -505,244 +405,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (d:/Programas/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 33.
- (d:/Programas/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
-Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
- (d:/Programas/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
-Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (d:/Programas/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
-)
-\c@section@level=\count311
-)
-LaTeX Info: Redefining \ref on input line 33.
-LaTeX Info: Redefining \pageref on input line 33.
-LaTeX Info: Redefining \nameref on input line 33.
- (d:/DocuementoVectp/Documento/LópezBecerraRicardoVF.out) (d:/DocuementoVectp/Documento/LópezBecerraRicardoVF.out)
-\@outlinefile=\write4
-\openout4 = `LópezBecerraRicardoVF.out'.
-
-
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into your preamble.
- on input line 33.
+ on input line 27.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
 (d:/Programas/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
  (d:/Programas/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+esint on input line 36.
+LaTeX Font Info:    Trying to load font information for U+esint on input line 29.
  (d:/Programas/texlive/2020/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 ) [1
 
-{d:/Programas/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.85 \end{equation}
-                   pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.85 \end{equation}
-                   ]pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.89 \begin{equation}
-                     \label{eqn:5}\tag{5}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.89 \begin{equation}
-                     \label{eqn:5}\tag{5}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.89 \begin{equation}
-                     \label{eqn:5}\tag{5}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.89 \begin{equation}
-                     \label{eqn:5}\tag{5}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 \begin{equation}
-                     \label{eqn:6}\tag{6}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 \begin{equation}
-                     \label{eqn:6}\tag{6}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 \begin{equation}
-                     \label{eqn:6}\tag{6}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.95 \begin{equation}
-                     \label{eqn:6}\tag{6}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.99 \begin{equation}
-                     \label{eqn:7}\tag{7}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.99 \begin{equation}
-                     \label{eqn:7}\tag{7}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.99 \begin{equation}
-                     \label{eqn:7}\tag{7}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.99 \begin{equation}
-                     \label{eqn:7}\tag{7} [2pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  
-l.129 \end{align*}
-                  ]
-Overfull \hbox (19.34354pt too wide) detected at line 143
+{d:/Programas/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5]
+Overfull \hbox (17.80856pt too wide) detected at line 267
 []
  []
 
-[3]
-Overfull \hbox (41.14928pt too wide) detected at line 190
-[]
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{equation.0.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.196 \end{align}
-                  [4] [5] [6]pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.311 \begin{equation}
-                      \label{eqn:9-2}\tag{2}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.311 \begin{equation}
-                      \label{eqn:9-2}\tag{2}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.311 \begin{equation}
-                      \label{eqn:9-2}\tag{2}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.311 \begin{equation}
-                      \label{eqn:9-2}\tag{2}
+[6] [7]
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
-[7] [8]pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.457 \begin{equation}
-                      \label{eqn:13-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.457 \begin{equation}
-                      \label{eqn:13-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.457 \begin{equation}
-                      \label{eqn:13-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.457 \begin{equation}
-                      \label{eqn:13-1}\tag{1} [9]pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.463 \begin{equation}
-                      \label{eqn:13-2}\tag{2}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.463 \begin{equation}
-                      \label{eqn:13-2}\tag{2}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.463 \begin{equation}
-                      \label{eqn:13-2}\tag{2}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.463 \begin{equation}
-                      \label{eqn:13-2}\tag{2}
-Overfull \hbox (26.74783pt too wide) detected at line 496
+[8] [9] [10] [11] [12] [13] [14]
+Overfull \hbox (8.52951pt too wide) in paragraph at lines 653--655
+\OT1/cmr/bx/n/12 Ejercicio 25: \OT1/cmr/m/n/12 Uti-li-zar el teo-re-ma de Green pa-ra cal-cu-lar el va-lor de $[][] 4\OML/cmm/m/it/12 xy[] [] x \OT1/cmr/m/n/12 +
+ []
+
+<Imagenes//problema25.png, id=69, 185.493pt x 146.34676pt>
+File: Imagenes//problema25.png Graphic file (type png)
+<use Imagenes//problema25.png>
+Package pdftex.def Info: Imagenes//problema25.png  used on input line 659.
+(pdftex.def)             Requested size: 185.49254pt x 146.34639pt.
+[15]
+Overfull \hbox (25.79207pt too wide) detected at line 694
 []
  []
 
-[10]pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.540 \begin{equation}
-                      \label{eqn:17-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.540 \begin{equation}
-                      \label{eqn:17-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.540 \begin{equation}
-                      \label{eqn:17-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.540 \begin{equation}
-                      \label{eqn:17-1}\tag{1} [11]
-Overfull \hbox (34.15259pt too wide) detected at line 577
-[]
- []
-
-[12]pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.605 \begin{equation}
-                      \label{eqn:18-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.605 \begin{equation}
-                      \label{eqn:18-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.605 \begin{equation}
-                      \label{eqn:18-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.605 \begin{equation}
-                      \label{eqn:18-1}\tag{1} [13]pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.644 \begin{equation}
-                      \label{eqn:27-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.644 \begin{equation}
-                      \label{eqn:27-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.644 \begin{equation}
-                      \label{eqn:27-1}\tag{1}pdfTeX warning (ext4): destination with the same identifier (name{equation.0.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.644 \begin{equation}
-                      \label{eqn:27-1}\tag{1} [14] [15] [16] (d:/DocuementoVectp/Documento/LópezBecerraRicardoVF.aux
-LaTeX Info: Redefining \. on input line 25.
-LaTeX Info: Redefining \% on input line 25.
-)
-Package rerunfilecheck Info: File `LópezBecerraRicardoVF.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
- ) 
+[16 <d:/DocuementoVectp/Documento/Imagenes//problema25.png>] [17] [18] [19] (d:/DocuementoVectp/Documento/LópezBecerraRicardoVF.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+) ) 
 Here is how much of TeX's memory you used:
- 28161 strings out of 479304
- 680814 string characters out of 5866263
- 1140513 words of memory out of 5000000
- 44835 multiletter control sequences out of 15000+600000
+ 24270 strings out of 479304
+ 618880 string characters out of 5866263
+ 1051029 words of memory out of 5000000
+ 41078 multiletter control sequences out of 15000+600000
  414856 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,20n,102p,747b,1982s stack positions out of 5000i,500n,10000p,200000b,80000s
-<d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on d:/DocuementoVectp/Documento/LópezBecerraRicardoVF.pdf (16 pages, 218067 bytes).
+ 102i,20n,102p,747b,1973s stack positions out of 5000i,500n,10000p,200000b,80000s
+<d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/esint-type1/esint10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/latxfont/line10.pfb><d:/Programas/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on d:/DocuementoVectp/Documento/LópezBecerraRicardoVF.pdf (19 pages, 253363 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 151 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 157 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

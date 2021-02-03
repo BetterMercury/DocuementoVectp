@@ -4,7 +4,6 @@
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{cancel}
-\usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{esint}
 \usepackage{pgfplots}
@@ -13,12 +12,7 @@
 
 \graphicspath{ {Imagenes/} }
 
-\pagestyle{empty}
-\topmargin = 0pt
-\headheight= 0pt
-\headsep=0pt
-\oddsidemargin= 25pt
-\textwidth=420pt
+
 \setlength{\parindent}{0pt}
 
 \DeclareMathOperator{\arcsec}{arcsec}
@@ -138,9 +132,9 @@
 	= 2\left(\frac{\sec(u)\tan(u)}{2} + \frac{1}{2} \int \sec(u)\, \mathrm{d}u - \int \sec(u)\, \mathrm{d}u\right)
 \end{align*}
 
-\begin{align*}
-	= 2\left(\frac{\sec(u)\tan(u)}{2} - \frac{1}{2}\int \sec(u)\, \mathrm{d}u\right) \implies 2\left(\frac{\sec(u)\tan(u)}{2} - \frac{1}{2}\ln(\tan(u)+\sec(u))\right)
-\end{align*}
+\begin{multline*}
+	= 2\left(\frac{\sec(u)\tan(u)}{2} - \frac{1}{2}\int \sec(u)\, \mathrm{d}u\right) \\\implies 2\left(\frac{\sec(u)\tan(u)}{2} - \frac{1}{2}\ln(\tan(u)+\sec(u))\right)
+\end{multline*}
 
 \begin{align*}
 	= \sec(u)\tan(u) - \ln(\tan(u)+\sec(u))
@@ -185,9 +179,9 @@
 
 \noindent Deshacemos la sustitución previa:
 
-\begin{align*}
-	\frac{1}{\sqrt{2}}\left[\left.\frac{2}{3}(x-2)^{\frac{3}{2}}\right|_2^4\right] \implies \frac{2}{3\sqrt{2}} \left[(4-2)^{\frac{3}{2}} - \cancelto{0}{(2-2)^{\frac{3}{2}}}\right] \implies \frac{2}{3\sqrt{2}} \left[(2)^{\frac{3}{2}}\right] = \frac{2\sqrt{8}}{3\sqrt{2}} = \frac{4\cancel{\sqrt{2}}}{3\cancel{\sqrt{2}}} = \pmb{\frac{4}{3}}
-\end{align*}
+\begin{multline*}
+	\frac{1}{\sqrt{2}}\left[\left.\frac{2}{3}(x-2)^{\frac{3}{2}}\right|_2^4\right] \implies \frac{2}{3\sqrt{2}} \left[(4-2)^{\frac{3}{2}} - \cancelto{0}{(2-2)^{\frac{3}{2}}}\right]\\ \implies \frac{2}{3\sqrt{2}} \left[(2)^{\frac{3}{2}}\right] = \frac{2\sqrt{8}}{3\sqrt{2}} = \frac{4\cancel{\sqrt{2}}}{3\cancel{\sqrt{2}}} = \pmb{\frac{4}{3}}
+\end{multline*}
 
 \noindent Resolvemos el problema sustituyendo los valores obtenidos de \eqref{eqn:6} y \eqref{eqn:7} en la ecuación \eqref{eqn:5}:
 
@@ -209,7 +203,7 @@ $x^2-14x+5y-11=0$.
  
 \vspace{5mm}
 
-Empezamos obteniendo los puntos de intersección de las cruvas
+Empezamos obteniendo los puntos de intersección de las curvas
 
 \begin{align*}
 	x^2 -14x -5y +59 = x^2-14x+5y-11 \implies y = 7
@@ -373,12 +367,12 @@ Luego, como apoyo, se grafican las curvas para reconocer los límites de integra
 		{1/x};
 	\end{axis}
 	\end{tikzpicture}
-	\caption{Gráfica de las curvas.}
+	\caption{Gráfica de las curvas del problema 10.}
 	\label{ej10}
 \end{figure}
 
 De la figura \ref{ej10} se deduce que se necesitan encontrar cuatro puntos de intersección,
-por lo que se optienen el valor de x los siguentes sistemas de ecuaciones:
+por lo que se obtienen el valor de x los siguientes sistemas de ecuaciones:
 \begin{align*}
 	&\begin{cases}
 		y &= 2x \\
@@ -422,7 +416,7 @@ Con los puntos obtenidos, se llega a que el área debe ser
 \vspace{3mm}
 
 Como una de las curvas es una circunferencia en el plano xy y se quiere calcular un
-volumen en que está involucrada, se utilizan coordenadas cilindricas para faciliar
+volumen en que está involucrada, se utilizan coordenadas cilíndricas para facilitar
 los cálculos, por lo que 
 
 \begin{align*}
@@ -492,7 +486,7 @@ como
 $. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,\, b=2\pi,\, g_1(x)=0,\, g_2(x)=3$. Sustituimos en la integral y nos queda:
 
 \begin{align*}
-	V = \int_{0}^{2\pi}\int_{0}^{3}\, (9-\underbrace{(x^2+z^2)}_{\text{$r^2$}})\, r\, \mathrm{d}r\,\mathrm{d}\theta = \int_{0}^{2\pi}\int_{0}^{3}\, (9-r^2)\, r\, \mathrm{d}r\,\mathrm{d}\theta = \int_{0}^{2\pi}\int_{0}^{3}\, (9r-r^3)\, \mathrm{d}r\,\mathrm{d}\theta
+	V &= \int_{0}^{2\pi}\int_{0}^{3}\, (9-\underbrace{(x^2+z^2)}_{\text{$r^2$}})\, r\, \mathrm{d}r\,\mathrm{d}\theta \\ &=  \int_{0}^{2\pi}\int_{0}^{3}\, (9-r^2)\, r\, \mathrm{d}r\,\mathrm{d}\theta = \int_{0}^{2\pi}\int_{0}^{3}\, (9r-r^3)\, \mathrm{d}r\,\mathrm{d}\theta
 \end{align*}
 
 \begin{align*}
@@ -503,7 +497,7 @@ $. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,
 	\pmb{\color{red} \therefore\: V = \frac{81}{2}\pi\: u^3}
 \end{align*}
 
-\noindent \textbf{Ejercicio 16:} Utilizar la integración doble para calcular el área de la región interior a lac urva cuya ecuación polar es $r=6\cos\theta$.
+\noindent \textbf{Ejercicio 16:} Utilizar la integración doble para calcular el área de la región interior a lac curva cuya ecuación polar es $r=6\cos\theta$.
 
 \vspace{5mm}
 
@@ -550,7 +544,7 @@ $. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,
 	\end{cases}
 \end{align*}
 
-\noindent Notamos que tenemos un ángulo que podría darnos problemas a la hora de realizar los cálculos, por lo que nos enfocaremos en el primer cuadrante ($0<\theta<\frac{\pi}{2}$) y aprovecharemos la símetria para multiplicar el area obtenida por 2. Ahora sustituimos los límites de integración obtenidos en la ecuación \eqref{eqn:17-1} y resolvemos:
+\noindent Notamos que tenemos un ángulo que podría darnos problemas a la hora de realizar los cálculos, por lo que nos enfocaremos en el primer cuadrante ($0<\theta<\frac{\pi}{2}$) y aprovecharemos la simetría para multiplicar el area obtenida por 2. Ahora sustituimos los límites de integración obtenidos en la ecuación \eqref{eqn:17-1} y resolvemos:
 
 \begin{align*}
 	2\Int_{0}^{\frac{\pi}{2}} \Int_{3}^{3(1+\cos\,\theta)}\, r\,\mathrm{d}r\,\mathrm{d}\theta = 2\Int_{0}^{\frac{\pi}{2}}\, \left.\frac{r^2}{2}\right|_{3}^{3(1+\cos\,\theta)} \mathrm{d}\theta = 2\Int_{0}^{\frac{\pi}{2}}\, \left(\frac{9(1+\cos\,\theta)^2}{2}  - \frac{9}{2}\right)  \mathrm{d}\theta
@@ -572,10 +566,9 @@ $. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,
 	\implies \underbrace{9\Int_{0}^{\frac{\pi}{2}}\, \left(1+2\cos\,\theta+\frac{1+\cos(2\theta)}{2}\,\right)\, \mathrm{d}\theta - \frac{9\pi}{2}}_{\text{multiplicamos toda la expresión por $\frac{2}{2}$}}
 \end{align*}
 
-\begin{align*}
-	\implies \frac{9}{2}\Int_{0}^{\frac{\pi}{2}}\, \left(2+4\cos\,\theta+1+\cos(2\theta)\,\right)\, \mathrm{d}\theta - \frac{18\pi}{4} = \frac{9}{2}\Int_{0}^{\frac{\pi}{2}}\, \left(3+4\cos\,\theta+\cos(2\theta)\,\right)\, \mathrm{d}\theta - \frac{18\pi}{4}
-\end{align*}
-
+\begin{multline*}
+	\implies \frac{9}{2}\Int_{0}^{\frac{\pi}{2}}\, \left(2+4\cos\,\theta+1+\cos(2\theta)\,\right)\, \mathrm{d}\theta - \frac{18\pi}{4} =\\ \frac{9}{2}\Int_{0}^{\frac{\pi}{2}}\, \left(3+4\cos\,\theta+\cos(2\theta)\,\right)\, \mathrm{d}\theta - \frac{18\pi}{4}
+\end{multline*}
 \begin{align*}
 	\implies \frac{9}{2}\,\left.\left(3\theta+4\sen(\theta)+\cancelto{0}{\frac{\sen(2\,\theta)}{2}}\right)\right|_{0}^{\frac{\pi}{2}} - \frac{18\pi}{4}
 \end{align*}
@@ -615,7 +608,7 @@ $. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,
 \noindent Ahora, para el rango de valores de $\theta$ nos basaremos en el calculo de su primer cuadrante y multiplicaremos el area obtenida por 4. En cualquier lemniscata, el rango de $\theta$ en el primer cuadrante es $\,0<\theta<\frac{\pi}{4}$. Teniendo los dos límites de la integral doble, procedemos a resolverla:
 
 \begin{align*}
-	\Int_{0}^{\frac{\pi}{4}} \Int_{0}^{2\sqrt{\cos(2\theta)}}\, r\,\mathrm{d}r\,\mathrm{d}\theta = \Int_{0}^{\frac{\pi}{4}} \left.\frac{r^2}{2}\right|_{0}^{2\sqrt{\cos(2\theta)}}\,\mathrm{d}\theta = \Int_{0}^{\frac{\pi}{4}}\,\frac{(2\sqrt{\cos(2\theta)})^2}{2}\,\mathrm{d}\theta = \Int_{0}^{\frac{\pi}{4}}\, \frac{4\cos(2\theta)}{2}\,\mathrm{d}\theta
+	\Int_{0}^{\frac{\pi}{4}} \Int_{0}^{2\sqrt{\cos(2\theta)}}\, r\,\mathrm{d}r\,\mathrm{d}\theta &= \Int_{0}^{\frac{\pi}{4}} \left.\frac{r^2}{2}\right|_{0}^{2\sqrt{\cos(2\theta)}}\,\mathrm{d}\theta = \\ \Int_{0}^{\frac{\pi}{4}}\,\frac{(2\sqrt{\cos(2\theta)})^2}{2}\,\mathrm{d}\theta &= \Int_{0}^{\frac{\pi}{4}}\, \frac{4\cos(2\theta)}{2}\,\mathrm{d}\theta
 \end{align*}
 
 \begin{align*}
@@ -628,6 +621,150 @@ $. Además, notamos que se tiene una circunferencia de radio 3, por lo que $a=0,
 	\pmb{\color{red} \therefore\: A = 4\: \: u^2}
 \end{align*}
 
+\noindent \textbf{Ejercicio 20:} Por medio de la integral doble, calcular el área de la región interior a la curva de
+ecuación polar $r = 2a(1 + \cos \theta)$donde a es una constante.
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+\vspace{3mm}
+Como se da una ecuación polar, se resuelve el ejercicio con coordenadas polares, por lo
+lo que 
+
+\begin{align*}
+	V = \int\int_{R} \di A
+\end{align*}
+donde
+\begin{align*}
+	\di A = h_{r}h_{\theta} \di r \di \theta && h_{r}=1 && h_{\theta} = r
+\end{align*} 
+
+Como se sabe que es un area cerrada y solo se nos da el valor de r, la integral que define 
+el área queda de la siguiente manera
+\begin{align*}
+	\int_0^{2\pi} \int_0^{2a(1+\cos\theta)} r \di r \di \theta 
+	&= \int_0^{2\pi} \eval{\frac{r^2}{2}}{0}{2a(1 + \cos\theta)} \di \theta \\
+	=2a^2 \int_0^{2\pi} 1 + 2 \cos\theta + \cos^2\theta \di \theta 
+	&= 2a^2 \eval{\left(\theta + 2\sen \theta + \frac{\sen2\theta}{4}
+	+ \frac{1}{2} \theta\right)}{0}{2\pi} \\
+	= \color{red} 2\pi a^2 u^2  
+\end{align*}
+
+\noindent \textbf{Ejercicio 25:}  Utilizar el teorema de Green para calcular el valor de
+$\int_c 4xy^2 \di x + y+2x^2 \di y$ a lo largo de la trayectoria mostrada en la figura \ref{ej25}. Comentar el resultado.
+
+\begin{figure}[!htbp] 
+	\label{ej25}
+	\centering
+	\includegraphics[scale = 1]{problema25.png}
+	\caption{Gráfica del problema 25.}
+\end{figure}
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+\vspace{3mm}
+El teorema de Green dice que 
+
+\begin{align*}
+	\oint_c P \di x + Q \di y = \iint \left( \frac{\partial Q}{\partial x} 
+	- \frac{\partial P}{\partial y} \right) \di x \di y
+\end{align*}
+
+y como 
+\begin{align*}
+	\begin{cases}
+		Q = 4xy^2 \implies 	\frac{\partial Q}{\partial x} = 4x \\ 
+		P = y + 2x^2 \implies  \frac{\partial P}{\partial y} = 8xy	
+	\end{cases}
+\end{align*}
+
+\begin{align*}
+	W = \int_{-2}^{0} \int_0^{x+2} 4x -8xy \di y \di x 
+	+ \int_0^2 \int_0^{-x+2} 4x-8xy \di y \di x
+\end{align*}
+
+El problema se divide en dos integrales debido a que dos funciones delimitan el área donde
+se calcula la integral.
+
+\begin{align*}
+	W &= \int_{-2}^0 4x^2 + 8x - 4x^3 - 16x^2 -16x \di x + \int_0^2 -4x^2 + 8x -4 x^3 + 16x^2
+	- 16x \di x \\
+	& = 0 + 0 = \color{red} 0
+\end{align*}
+lo que nos dice el resultado es que el campo propuesto es conservativo, ya que una de las 
+características de este tipo de campos es que la trayectoria no importa en el cálculo del
+trabajo y, como en una curva cerra se empieza y termina en un mismo lugar, entonces
+el trabajo es cero.
+\\
+\noindent \textbf{Ejercicio 26:} Haciendo uso del teorema de Green, determinar el área del 
+cardioide $x = a(2\cos t - \cos 2t)$, $y = (2\sen t - \sen 2t)$.
+\vspace{5mm}
+
+\vspace{3mm}
+El teorema de Green dice que 
+
+\begin{align*}
+	\iint \left( \frac{\partial Q}{\partial x} 
+	- \frac{\partial P}{\partial y} \right) \di x \di y =
+	\oint_c P \di x + Q \di y  
+\end{align*}
+
+y como para calcular el área $\left( \frac{\partial Q}{\partial x} 
+- \frac{\partial P}{\partial y} \right) = 1$, se puede escoger
+arbitrariamente Q y P como
+\begin{align*}
+	Q = x && P = 0 &&\implies  &&A = \iint \left( \frac{\partial Q}{\partial x} 
+	- \frac{\partial P}{\partial y} \right) \di x \di y = \int x \di y
+\end{align*}
+o
+\begin{align*}
+	Q = 0 && P = y &&\implies  &&A = \iint \left( \frac{\partial Q}{\partial x} 
+	- \frac{\partial P}{\partial y} \right) \di x \di y = \int -y \di x
+\end{align*}
+
+Combinando los resultados anteriores se obtiene que 
+
+\begin{align} \label{TeoGreen}
+	A = \frac{1}{2}  \int x \di y + \int -y \di x
+\end{align}
+
+Ahora, obteniendo $x$, $\di x$, $y$ y $\di y$ se tiene que 
+\begin{align*}
+	&\begin{cases}
+		x = 2a \cos t - a \cos 2t \\
+		\di x = (-2a)(\sen t - \sen 2t) \di t
+	\end{cases} \\
+	&\begin{cases}
+		y = 2 \sen t - \sen 25p \\
+		dy = (2\cos t - 2\cos 2t)\di t
+	\end{cases}
+\end{align*}
+Sustituyendo en \ref{TeoGreen} se llega a que 
+\begin{multline*}
+	A = \frac{1}{2} \int_0^{2\pi} -\left(2 \sen t - \sen 2t \right)\left(-2a
+	\right)\left(\sen t - \sen 2t\right)
+	+\\ \left(2a \cos t - a\cos 2t \right)\left(2 \cos t - 2 \cos 2t\right) \di t	
+\end{multline*}
+Desarrollando
+\begin{multline*}
+	A = \frac{1}{2} \int_0^{2\pi} 4a \sen^2 t - 6a \sen t \sen 2t + 2a \sen^2 2t +\\
+	4a \cos^2 t - 6a \cos t \cos 2t + 2a \cos^2 2t \di t
+\end{multline*}
+Agrupando términos semejantes
+
+\begin{align*}
+	A = \frac{1}{2} \int_0^{2\pi} 6a (1-  \sen t\sen 2t + \cos t \cos 2t) \di t
+\end{align*}
+
+Aplicando la identidad del ángulo doble a $\sen 2t$ y a $\cos 2t$ y simplificando
+
+\begin{align*}
+	 A \footnotemark = \frac{1}{2} \int_0^{2\pi} 6a(1-\cos t) \di t = \color{red} 6a\pi u^2 
+\end{align*} 
+\footnotetext{El resultado difiere con el proporcionado en la serie, pero no se encontró 
+forma de llenar a él. Además, obteniendo el área de un caso específico, el resultado
+es más cercano al presentado aquí.}
 
 
 
