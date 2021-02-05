@@ -71,6 +71,14 @@ Y la integral $\int\int_{R}e^{\,x^2+y^2}dA$ quedaría como:
 $\int(e^{\,r\cdot r})r \,dr=\frac{1}{2}\int e^u \,du= \frac{1}{2}(e^{\,r\cdot r})$ con $u=r^2$ y $du=2dr$ $\int_{0}^{2\pi}\frac{1}{2}(e^9-e) \,d\theta \\ \\ \pmb{\color{red} \therefore \qquad \pi((e^9-e)}$
 \\[15pt]
 
+\noindent \textbf{Ejercicio 4:} Utiliza integrales dobles para calcular el área de la región del plano xy localizada en el primer cuadrante y limitada por las curvas de ecuaciones $16(x-1)={{y}^{2}}$\ y\ $8x={{y}^{2}}$
+\\[10pt]
+\textbf{Solución.}
+\\[10pt]
+\[\int\limits_{0}^{4}{\int\limits_{\frac{{{y}^{2}}}{8}}^{\frac{{{y}^{2}}}{16}+1}{dxdy=\int\limits_{0}^{4}{(\frac{{{y}^{2}}}{16}+1-\frac{{{y}^{2}}}{8})dy}}}\]
+
+\[=\int\limits_{0}^{4}{(-\frac{{{y}^{2}}}{16}+1)dy=\left[ -\frac{{{y}^{3}}}{48}+y \right]_{0}^{4}=\frac{8}{3}{{u}^{2}}}\]
+
 \noindent \textbf{Ejercicio 5:} Calcular el área de la región del plano XY interior a las curvas de ecuaciones $x^2+y^2=9$ y $x^2+y^2-6x=0$
 \\[10pt]
 \textbf{Solución.}
@@ -231,6 +239,35 @@ $\pmb{\color{red} \therefore \qquad A= 6\pi+\frac{9}{2}\sqrt{3}}$
 \begin{align*}
 	 \pmb{\color{red} \therefore\: A = 2\sqrt{3} - \ln(\sqrt{3}+2) - \frac{4}{3}\quad u^2}
 \end{align*}
+
+
+\noindent \textbf{Ejercicio 7:} Por medio de la integral doble, calcular el área de la región del primer cuadrante, limitada por las curvas de ecuaciones:\par
+$x=2;x=6;{{y}^{2}}={{x}^{2}}-10x+26;{{y}^{2}}={{x}^{2}}-10x+30$\\
+\vspace{5mm}
+\textbf{Solución.}
+\vspace{5mm}
+\[\left\{ \begin{gathered}
+  {y^2} - {(x - 5)^2} = 1 \hfill \\
+  {y^2} - {(x - 5)^2} = 5 \hfill \\
+  x = 2 \hfill \\
+  x = 6 \hfill \\ 
+\end{gathered}  \right.\]
+
+\[\begin{gathered}
+  R:\left\{ \begin{gathered}
+  x \leqslant x \leqslant 6 \hfill \\
+  \sqrt {{{(x - 5)}^2} + 1}  \leqslant y \leqslant \sqrt {{{(x - 5)}^2} + 5}  \hfill \\ 
+\end{gathered}  \right. \hfill \\
+  A(R) = \int\limits_2^6 {\int\limits_{\sqrt {{{(x - 5)}^2} + 1} }^{\sqrt {{{(x - 5)}^2} + 5} } {dydx = } } \int\limits_2^6 {\left. y \right|_{\sqrt {{{(x - 5)}^2} + 1} }^{\sqrt {{{(x - 5)}^2} + 5} }} dx \hfill \\
+   = \int\limits_2^6 {\sqrt {{{(x - 5)}^2} + 5}  - } \sqrt {{{(x - 5)}^2} + 1} dx \hfill \\
+  u = x - 5 \to du = dx \hfill \\
+   = \int\limits_{ - 3}^1 {\sqrt {{{(u)}^2} + 5}  - } \sqrt {{{(u)}^2} + 1} du \hfill \\
+  A(R) = \int\limits_{ - 0.9302}^{0.4205} {\sqrt 5 \sec \theta \sqrt 5 {{\sec }^2}\theta  - \int\limits_{ - 1.249}^{\frac{\pi }{4}} {\sec \theta {{\sec }^2}\theta d\theta } }  \hfill \\ 
+\end{gathered} \]
+
+\[A(R) = \left. {\frac{5}{2}(\sec \theta \tan \theta  + \ln \left( {\sec \theta  + \tan \theta } \right))} \right|_{ - 0.9302}^{0.4205} - \left. {\frac{1}{2}(\sec \theta \tan \theta  + \ln \left( {\sec \theta  + \tan \theta } \right))} \right|_{ - 1.249}^{\frac{\pi }{4}}\]
+
+	\[A(R)=3.879{{u}^{2}}\].
 
 \noindent \textbf{Ejercicio 8:} Por medio de la integral doble, calcular el área
 de la región localizada entre las curvas de ecuación $x^2 -14x -5y +59 = 0$ , 
@@ -445,6 +482,36 @@ Con los puntos obtenidos, se llega a que el área debe ser
 	&=\color{red}\ln(8) u^2
 \end{align*}
 
+\noindent \textbf{Ejercicio 11:} Calcular el volumen de la región localizada por arriba del plano XY, interior al paraboloide $z=9-({{x}^{2}}+{{y}^{2}})$
+y exterior al cilindro ${{x}^{2}}+{{y}^{2}}=4$
+
+\vspace{5mm}
+\noindent \textbf{Solución.}
+\vspace{5mm}
+
+La región de integración está compuesta por un anillo, donde la circunferencia interna es el borde del cilindro, en tanto que la frontera externa es la intersección del paraboloide con el plano XY. Debido a esta forma de la región es adecuado el cambio a coordenadas polares para realizar la integral. Entonces, la circunferencia interior tiene la ecuación del cilindro, que en coordenadas polares es r=2; la circunferencia exterior tiene la ecuación.
+\[0=9-({{x}^{2}}+{{y}^{2}})\]
+\[{{x}^{2}}+{{y}^{2}}=9\to r=3\]
+
+Por lo que el intervalo de integración es r en [2,3], en tanto que para  $\theta $ sería la vuelta completa a la circunferencia polar, [0,2pi]
+La altura del volumen está definida oír el paraboloide, por lo que solo hay que sustituir las ecuaciones de transformación para cambiar de coordenadas.
+
+\begin{align}
+  & z=9-({{x}^{2}}+{{y}^{2}}) \\ 
+ & z=9-{{r}^{2}} \\ 
+\end{align}
+
+La integral para calcular el volumen es
+\begin{align}
+  & V=\iint_{R}{f(x,y)dA} \\ 
+ & =\int\limits_{2}^{3}{\int\limits_{0}^{2\pi }{(9-{{r}^{2}})rd\theta dr}} \\ 
+ & =\int\limits_{2}^{3}{(9-{{r}^{3}})\int\limits_{0}^{2\pi }{d\theta dr}} \\ 
+ & =\int\limits_{2}^{3}{(9-{{r}^{3}})}\left. \theta  \right|_{0}^{2\pi }dr \\ 
+ & =2\pi \int\limits_{2}^{3}{(9-{{r}^{3}})}dr \\ 
+ & =2\pi \left[ \frac{9}{2}{{r}^{2}}-\frac{1}{4}{{r}^{2}} \right]_{2}^{3} \\ 
+ & V=\frac{25}{2}\pi [{{u}^{3}}] \\ 
+\end{align}
+
 \noindent \textbf{Ejercicio 12:} Determinar el volumen de la región limitada por
  las superficies: $az = y^2$, $x^2+y^2 = r2$, $z=0$ donde a y r son constantes.
 
@@ -546,6 +613,25 @@ Al sustituir en x tenemos $x^2=4-1$ $\rightarrow$ $x=\pm\sqrt{3}$\hspace{0.25cm}
 \\[9pt]
 $\pmb{\color{red} \therefore \qquad \int\int_{R}cos\theta dA=0}$ 
 \\[15pt]
+
+\noindent \textbf{Ejercicio 15:} Utilizar integración doble para calcular el área de la región del primer cuadrante interior a la curva cuya ecuación polar es $r=3sen(4\theta )$
+
+\vspace{5mm}
+\noindent \textbf{Solución.}
+\vspace{5mm}
+
+\[\begin{gathered}
+  R:\left\{ \begin{gathered}
+  0 \leqslant \theta  \leqslant \frac{\pi }{2} \hfill \\
+  o \leqslant r \leqslant 3sen(4\theta ) \hfill \\ 
+\end{gathered}  \right. \hfill \\
+  A(R) = \int\limits_0^{\frac{\pi }{2}} {\int\limits_0^{3sen(4\theta )} {rdrd\theta } }  \hfill \\
+   = \int\limits_0^{\frac{\pi }{2}} {\left. {\frac{{{r^2}}}{2}} \right|_0^{3sen(4\theta )}} d\theta  = \frac{9}{2}\int\limits_0^{\frac{\pi }{2}} {se{n^2}(4\theta )d\theta }  \hfill \\
+   = \frac{9}{2}\left[ {\frac{1}{2}\left( {\theta  - \frac{1}{8}sen(8\theta )} \right)} \right]_0^{\frac{\pi }{2}} = \frac{9}{2}\left( {\frac{1}{2}(\frac{\pi }{2} - 0)} \right) \hfill \\
+  A(R) = \frac{{9\pi }}{8}{u^2} \hfill \\ 
+\end{gathered} \]
+
+
 
 \noindent \textbf{Ejercicio 16:} Utilizar la integración doble para calcular el área de la región interior a lac curva cuya ecuación polar es $r=6\cos\theta$.
 
@@ -762,6 +848,23 @@ $I=-\int_{0}^{\frac{\pi}{2}}cos\theta(\frac{2^3}{3})=\rceil_{0}^{\frac{\pi}{2}}(
 
 \vspace{5mm}
 
+\noindent \textbf{Ejercicio 23:} Utilizar el teorema de Green en el plano mediante integrales de línea, el área de la región mostrada en al figura.
+\vspace{5mm}
+\noindent \textbf{Solución.}
+\vspace{5mm}
+\[\begin{gathered}
+  R:\left\{ \begin{gathered}
+   - 1 \leqslant x \leqslant 1 \hfill \\
+  2{x^2} - 1 \leqslant y \leqslant 1 \hfill \\ 
+\end{gathered}  \right. \hfill \\
+  A(R):\int\limits_{ - 1}^1 {\int\limits_{2{x^2} - 1}^1 {dydx} }  \hfill \\
+   = \int\limits_{ - 1}^1 {2(1 - {x^2})dx}  = 2\left[ {x - \frac{{{x^3}}}{3}} \right]_{ - 1}^1 \hfill \\
+   = 2[(1 - \frac{1}{3}) - ( - 1 + \frac{1}{3})] = 2[\frac{2}{3} + \frac{2}{3}] = 2[\frac{4}{3}] \hfill \\
+  A(R) = \frac{8}{3}{u^2} \hfill \\ 
+\end{gathered} \]
+
+
+
 \noindent \textbf{Ejercicio 25:}  Utilizar el teorema de Green para calcular el valor de
 $\int_c 4xy^2 \di x + y+2x^2 \di y$ a lo largo de la trayectoria mostrada en la figura \ref{ej25}. Comentar el resultado.
 
@@ -940,6 +1043,36 @@ es más cercano al presentado aquí.}
 \begin{align*}
 	\pmb{\color{red} \therefore\: A = 6\pi\: \: u^2}
 \end{align*}
+
+\noindent \textbf{Ejercicio 28:} Utilizar el teorema de Green en el plano, para calcular $\iint\limits_{R}{({{x}^{2}}+{{y}^{2}})dxdy}$siendo R la región del plano XY donde  $\frac{{{x}^{2}}}{{{a}^{2}}}+\frac{{{y}^{2}}}{{{b}^{2}}}\le 1$ siendo a y b constantes.
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+
+\vspace{3mm}
+\[\begin{gathered}
+  \iint\limits_C {\left( {\frac{{\partial Q}}{{\partial d}} - \frac{{\partial P}}{{\partial y}}} \right)dA = \int\limits_C {F \cdot dr = \int\limits_C {Pdx + Qdy} } } \hfill \\
+  \iint\limits_R {(2x - 2y)dA} \hfill \\
+  \frac{{{x^2}}}{{{a^2}}} + \frac{{{y^2}}}{{{b^2}}} \leqslant 1 \to C:\left\{ \begin{gathered}
+  x = a\cos \theta  \hfill \\
+  y = bsen\theta  \hfill \\ 
+\end{gathered}  \right. \hfill \\
+  0 \leqslant \theta  \leqslant 2\pi  \hfill \\
+  \left\{ \begin{gathered}
+  dx = a\cos \theta  \hfill \\
+  dy = bsen\theta  \hfill \\ 
+\end{gathered}  \right. \to x = a;y = b\sqrt {1 - \frac{{{x^2}}}{{{a^2}}}}  \hfill \\
+  A(R) = ({a^2} + {b^2})\int\limits_{2\pi }^0 {b\sqrt {1 - \frac{{{a^2}{{\cos }^2}\theta }}{{{a^2}}}} ( - asen\theta )d\theta }  \hfill \\
+  A(R) = ({a^2} + {b^2})\int\limits_{2\pi }^0 {b\sqrt {1 - {{\cos }^2}\theta } } ( - asen\theta )d\theta  \hfill \\
+   = ({a^2} + {b^2})\int\limits_{\frac{\pi }{2}}^0 { - abse{n^2}\theta d\theta }  \hfill \\
+   = ({a^2} + {b^2})( - ab)\int\limits_{\frac{\pi }{2}}^0 {\left( {\frac{1}{2} - \frac{1}{2}\cos 2\theta } \right)} d\theta  \hfill \\
+   = ({a^2} + {b^2})( - ab)\left[ {\frac{\theta }{2} - \frac{1}{4}sen(2\theta )} \right]_{\frac{\pi }{2}}^0 \hfill \\
+  A(R) = ({a^2} + {b^2})( - ab)\left[ {\frac{{\frac{\pi }{2}}}{2} - \frac{1}{4}sen(2\frac{\pi }{2})} \right] \hfill \\
+  A(R) = \frac{\pi }{4}({a^2} + {b^2})( - ab) \hfill \\ 
+\end{gathered} \]
+
+
 
 \end{document}
 

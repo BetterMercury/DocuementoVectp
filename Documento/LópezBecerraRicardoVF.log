@@ -1,9 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.25)  5 FEB 2021 00:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.12.5)  5 FEB 2021 17:10
 entering extended mode
-**./LópezBecerraRicardoVF.tex
-(LópezBecerraRicardoVF.tex
-LaTeX2e <2020-10-01> patch level 1
-L3 programming layer <2020-10-05> xparse <2020-03-03>
+**C:/Users/Dante/Documents/GitHub/DocuementoVectp/Documento/LópezBecerraRicard
+oVF.tex
+
+(C:/Users/Dante/Documents/GitHub/DocuementoVectp/Documento/LópezBecerraRicardo
+VF.tex
+LaTeX2e <2020-10-01> patch level 2
+L3 programming layer <2020-10-27> xparse <2020-03-03>
 ("C:\Program Files\MiKTeX\tex/latex/base\article.cls"
 Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
 ("C:\Program Files\MiKTeX\tex/latex/base\size12.clo"
@@ -22,10 +25,10 @@ File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
 \bibindent=\dimen138
 )
 ("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
-Package: babel 2020/10/06 3.50 The Babel package
+Package: babel 2020/10/27 3.51 The Babel package
 
 ("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
-File: babel.def 2020/10/06 3.50 Babel common definitions
+File: babel.def 2020/10/27 3.51 Babel common definitions
 \babel@savecnt=\count183
 \U@D=\dimen139
 \l@babelnohyphens=\language79
@@ -522,7 +525,8 @@ File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
 \l__kernel_color_stack_int=\count292
 \l__pdf_internal_box=\box61
 )
-(LópezBecerraRicardoVF.aux
+(C:/Users/Dante/Documents/GitHub/DocuementoVectp/Documento\LópezBecerraRicardo
+VF.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 )
@@ -544,8 +548,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
-
-("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+ ("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count293
 \scratchdimen=\dimen271
@@ -592,7 +595,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--59
 
 [1
 
-{C:/Users/ricar/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+{C:/Users/Dante/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 Underfull \hbox (badness 10000) in paragraph at lines 69--73
 
  []
@@ -639,20 +642,20 @@ Overfull \hbox (25.79207pt too wide) detected at line 806
 []
  []
 
-[19 <./Imagenes//problema25.png>] [20] [21] [22] [23]
-(LópezBecerraRicardoVF.aux
+[19 <C:/Users/Dante/Documents/GitHub/DocuementoVectp/Documento/Imagenes//proble
+ma25.png>] [20] [21] [22] [23] (LópezBecerraRicardoVF.aux
 LaTeX Info: Redefining \. on input line 8.
 LaTeX Info: Redefining \% on input line 8.
 ) ) 
 Here is how much of TeX's memory you used:
- 24781 strings out of 480257
- 635498 string characters out of 2891252
- 1043707 words of memory out of 3000000
- 40935 multiletter control sequences out of 15000+200000
+ 24791 strings out of 479799
+ 635664 string characters out of 2879599
+ 1043637 words of memory out of 3000000
+ 41397 multiletter control sequences out of 15000+200000
  546514 words of font info for 78 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,20n,105p,721b,2003s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\ricar\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi720\es
+ 99i,20n,109p,777b,2003s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Dante\AppData\Local\MiKTeX\fonts/pk/ljfour/public/esint/dpi720\es
 int10.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C
 :/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fo
