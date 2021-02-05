@@ -372,7 +372,7 @@ Primero se reescriben las ecuaciones de las curvas
 Luego, como apoyo, se grafican las curvas para reconocer los límites de integración
 \begin{figure}
 \centering
-\begin{tikzpicture}
+\begin{tikzpicture}[scale=0.7]
 	\begin{axis}[
 		axis lines = left,
 		xlabel = $x$,
@@ -678,7 +678,7 @@ $\pmb{\color{red} \therefore \qquad \int\int_{R}cos\theta dA=0}$
 Si $r=0$ $\rightarrow$ $0=cos4\theta$ y $\theta=\frac{\pi}{8}$ Así, $R_{1}: 0\leq \theta \leq\frac{\pi}{8}$ y $0\leq r \leq cos4\theta$ la integral quedaría como:$ A=2\int \int_{R} r \,dA$ y con $dA=dxdy=h_{r}h_{\theta}drd_{\theta}$ \hspace{0.2cm} $A=2\int \int_{R} r \,dr \, d\theta$ y sería:
 \[ \int_{0}^{\frac{\pi}{8}} \int_{0}^{cos4\theta} r \,dr\,d\theta \]
 \\[2pt]
-Entonces $A=2\int_{0}^{\frac{\pi}{8}}\frac{1}{2}cos^24\theta \,d\theta=\rceil_{0}^{\frac{\pi}{8}}(\frac{1}{2}\theta+\frac{1}{2}\frac{sen8\theta}{8})=\frac{\pi}{16}\frac{1}{16}(0) \qquad \pmb{\color{red} \therefore A=\frac{\pi}{16}}$
+Entonces $A=2\int_{0}^{\frac{\pi}{8}}\frac{1}{2}cos^24\theta \,d\theta=\rceil_{0}^{\frac{\pi}{8}}(\frac{1}{2}\theta+\frac{1}{2}\frac{sen8\theta}{8})=\frac{\pi}{16}\frac{1}{16}(0) \qquad \pmb{\color{red} \therefore \: A=\frac{\pi}{16}}$
 \\[15pt]
 
 \noindent \textbf{Ejercicio 20:} Por medio de la integral doble, calcular el área de la región interior a la curva de
@@ -709,6 +709,41 @@ el área queda de la siguiente manera
 	+ \frac{1}{2} \theta\right)}{0}{2\pi} \\
 	= \color{red} 2\pi a^2 u^2  
 \end{align*}
+
+\noindent \textbf{Ejercicio 21:} Calcular $\iint_R (x^2 + y^2) \mathrm{d}x$ siendo $R$ la región interior del primer cuadrante limitado por las curvas $x\,y=1$, $x\,y=8$, $x^2-y^2=3$, $x^2-y^2=6$.
+
+Sugerencia: Hacer el cambio de variable $u = x\,y$, $v=x^2-y^2$.
+
+\vspace{5mm}
+
+\noindent \textbf{Solución.}
+
+\vspace{3mm}
+
+\noindent Obtenemos los límites de integración a partir del cambio de variable sugerido:
+
+\begin{gather*}
+	x\,y=1 \implies u = 1 \\
+	x\,y=8 \implies u = 8 \\
+	x^2-y^2=3 \implies v = 3 \\
+	x^2-y^2=6 \implies v = 6
+\end{gather*}
+
+\noindent Ahora obtenemos $\mathrm{d}A$, tal que $\mathrm{d}A = J\left(\frac{x,\,y}{u,\,v}\right) \mathrm{d}u\,\mathrm{d}v$:
+
+\begin{gather*}
+	J\left(\frac{u,\,v}{x,\,y}\right) = 
+	\begin{vmatrix}
+		y & 2x \\
+		x & -2y
+	\end{vmatrix} = -2y^2-2x^2 = -2(x^2+y^2) \\
+	\implies J\left(\frac{u,\,v}{x,\,y}\right)^{-1} = J\left(\frac{x,\,y}{u,\,v}\right) = \frac{1}{-2\left(x^2+y^2\right)} \\
+	\Int_3^6 \Int_1^8 \, \frac{-1}{2}\,\mathrm{d}u\,\mathrm{d}v = \Int_3^6 \left[-\frac{1}{2}\right]_1^8 \, \mathrm{d}v = \int_3^6 -\frac{1}{2} (8 - 1) = \frac{7}{2} \, \int_3^6 \mathrm{d}v = \frac{7}{2}\,(6-3)
+\end{gather*}
+
+\begin{gather*}
+	\pmb{\color{red} \therefore \quad \iint_R (x^2 + y^2) \mathrm{d}x = \frac{21}{2}}
+\end{gather*}
 
 \textbf{Ejercicio 22:} Comprobar el teorema de Green con el campo vectorial $\overline{v}=xy\hat{i}+y^2\hat{j}$ y la trayectoria cerrada de la figura $x^2+y^2=4$ con las curvas $x=0$ y $y=0$
 \\[10pt]
@@ -773,7 +808,9 @@ lo que nos dice el resultado es que el campo propuesto es conservativo, ya que u
 características de este tipo de campos es que la trayectoria no importa en el cálculo del
 trabajo y, como en una curva cerra se empieza y termina en un mismo lugar, entonces
 el trabajo es cero.
-\\
+
+\vspace{5mm}
+
 \noindent \textbf{Ejercicio 26:} Haciendo uso del teorema de Green, determinar el área del 
 cardioide $x = a(2\cos t - \cos 2t)$, $y = (2\sen t - \sen 2t)$.
 \vspace{5mm}
